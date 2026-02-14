@@ -3934,264 +3934,429 @@
 <h1 id="geo-coding-muscle-with-python">Geo Coding Muscle with Python</h1>
 <p>Welcome to the comprehensive repository of Python learning resources, projects, and geospatial analysis guides.</p>
 <h2 id="repository-structure">📚 Repository Structure</h2>
-<p>Explore the various sections of this documentation through the interactive tree below:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>├── Data Science
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>│   ├── Data Science Bootcamp With Python
-<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>│   │   ├── Introduction To Jupyter Notebook
-<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>│   │   │   ├── Jupyter Notebook Tutorial.Md
-<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>│   │   │   └── Jupyter Notebook Tutorial Files
-<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>│   │   │       ├── Jupyter Notebook Tutorial 4 1.Png
-<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>│   │   │       └── Jupyter Notebook Tutorial 5 1.Png
-<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>│   │   ├── Introduction To Numpy
-<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>│   │   │   ├── Introduction To Numpy.Md
-<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>│   │   │   ├── Numpy Axis.Md
-<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>│   │   │   ├── Numpy Attributes And Methods.Md
-<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>│   │   │   ├── Mathematical Operations Using Numpy.Md
-<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>│   │   │   ├── Advantages Of Using Numpy.Md
-<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>│   │   │   └── Random Practice
-<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>│   │   ├── Introduction To Pandas
-<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>│   │   │   ├── Introduction To Pandas.Md
-<a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>│   │   │   ├── Pandas Dataframe.Md
-<a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>│   │   │   ├── Different Ways Of Creating Dataframe.Md
-<a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a>│   │   │   ├── Read Write Excel Csv.Md
-<a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a>│   │   │   ├── Handle Missing Data.Md
-<a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a>│   │   │   ├── Handle Missing Data.Md
-<a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a>│   │   │   ├── Group By Method.Md
-<a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a>│   │   │   ├── Group By Method Files
-<a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a>│   │   │   │   ├── Group By Method 12 1.Png
-<a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a>│   │   │   │   ├── Group By Method 12 2.Png
-<a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a>│   │   │   │   └── Group By Method 12 3.Png
-<a id="__codelineno-0-27" name="__codelineno-0-27" href="#__codelineno-0-27"></a>│   │   │   └── Datasets
-<a id="__codelineno-0-28" name="__codelineno-0-28" href="#__codelineno-0-28"></a>│   │   │       ├── New Stock Data.Csv
-<a id="__codelineno-0-29" name="__codelineno-0-29" href="#__codelineno-0-29"></a>│   │   │       ├── New Stocks.Xlsx
-<a id="__codelineno-0-30" name="__codelineno-0-30" href="#__codelineno-0-30"></a>│   │   │       ├── Stocks And Weather.Xlsx
-<a id="__codelineno-0-31" name="__codelineno-0-31" href="#__codelineno-0-31"></a>│   │   │       ├── Weather By Cities.Csv
-<a id="__codelineno-0-32" name="__codelineno-0-32" href="#__codelineno-0-32"></a>│   │   │       ├── Weather Data.Csv
-<a id="__codelineno-0-33" name="__codelineno-0-33" href="#__codelineno-0-33"></a>│   │   │       └── Weather Data2.Csv
-<a id="__codelineno-0-34" name="__codelineno-0-34" href="#__codelineno-0-34"></a>│   │   ├── Introduction To Matplotlib
-<a id="__codelineno-0-35" name="__codelineno-0-35" href="#__codelineno-0-35"></a>│   │   │   ├── Introduction To Matplotlib.Md
-<a id="__codelineno-0-36" name="__codelineno-0-36" href="#__codelineno-0-36"></a>│   │   │   ├── Introduction To Matplotlib Files
-<a id="__codelineno-0-37" name="__codelineno-0-37" href="#__codelineno-0-37"></a>│   │   │   │   ├── Introduction To Matplotlib 11 1.Png
-<a id="__codelineno-0-38" name="__codelineno-0-38" href="#__codelineno-0-38"></a>│   │   │   │   ├── Introduction To Matplotlib 7 1.Png
-<a id="__codelineno-0-39" name="__codelineno-0-39" href="#__codelineno-0-39"></a>│   │   │   │   └── Introduction To Matplotlib 9 1.Png
-<a id="__codelineno-0-40" name="__codelineno-0-40" href="#__codelineno-0-40"></a>│   │   │   ├── Format Strings In Plot Function.Md
-<a id="__codelineno-0-41" name="__codelineno-0-41" href="#__codelineno-0-41"></a>│   │   │   └── Format Strings In Plot Function Files
-<a id="__codelineno-0-42" name="__codelineno-0-42" href="#__codelineno-0-42"></a>│   │   │       ├── Format Strings In Plot Function 10 1.Png
-<a id="__codelineno-0-43" name="__codelineno-0-43" href="#__codelineno-0-43"></a>│   │   │       ├── Format Strings In Plot Function 5 1.Png
-<a id="__codelineno-0-44" name="__codelineno-0-44" href="#__codelineno-0-44"></a>│   │   │       ├── Format Strings In Plot Function 6 1.Png
-<a id="__codelineno-0-45" name="__codelineno-0-45" href="#__codelineno-0-45"></a>│   │   │       ├── Format Strings In Plot Function 7 1.Png
-<a id="__codelineno-0-46" name="__codelineno-0-46" href="#__codelineno-0-46"></a>│   │   │       └── Format Strings In Plot Function 8 1.Png
-<a id="__codelineno-0-47" name="__codelineno-0-47" href="#__codelineno-0-47"></a>│   │   ├── Linear Regression
-<a id="__codelineno-0-48" name="__codelineno-0-48" href="#__codelineno-0-48"></a>│   │   │   ├── Simple Linear Regression.Md
-<a id="__codelineno-0-49" name="__codelineno-0-49" href="#__codelineno-0-49"></a>│   │   │   ├── Simple Linear Regression Files
-<a id="__codelineno-0-50" name="__codelineno-0-50" href="#__codelineno-0-50"></a>│   │   │   │   ├── Simple Linear Regression 26 1.Png
-<a id="__codelineno-0-51" name="__codelineno-0-51" href="#__codelineno-0-51"></a>│   │   │   │   ├── Simple Linear Regression 38 0.Png
-<a id="__codelineno-0-52" name="__codelineno-0-52" href="#__codelineno-0-52"></a>│   │   │   │   ├── Simple Linear Regression 40 0.Png
-<a id="__codelineno-0-53" name="__codelineno-0-53" href="#__codelineno-0-53"></a>│   │   │   │   ├── Simple Linear Regression 42 0.Png
-<a id="__codelineno-0-54" name="__codelineno-0-54" href="#__codelineno-0-54"></a>│   │   │   │   └── Simple Linear Regression 68 0.Png
-<a id="__codelineno-0-55" name="__codelineno-0-55" href="#__codelineno-0-55"></a>│   │   │   ├── Multiple Linear Regression.Md
-<a id="__codelineno-0-56" name="__codelineno-0-56" href="#__codelineno-0-56"></a>│   │   │   ├── Cost Function.Md
-<a id="__codelineno-0-57" name="__codelineno-0-57" href="#__codelineno-0-57"></a>│   │   │   ├── Cost Function Files
-<a id="__codelineno-0-58" name="__codelineno-0-58" href="#__codelineno-0-58"></a>│   │   │   │   └── Cost Function 5 1.Png
-<a id="__codelineno-0-59" name="__codelineno-0-59" href="#__codelineno-0-59"></a>│   │   │   ├── Exercises
-<a id="__codelineno-0-60" name="__codelineno-0-60" href="#__codelineno-0-60"></a>│   │   │   │   ├── Simple Linear Regression Exercise.Md
-<a id="__codelineno-0-61" name="__codelineno-0-61" href="#__codelineno-0-61"></a>│   │   │   │   └── Simple Linear Regression Exercise Files
-<a id="__codelineno-0-62" name="__codelineno-0-62" href="#__codelineno-0-62"></a>│   │   │   │       ├── Simple Linear Regression Exercise 14 0.Png
-<a id="__codelineno-0-63" name="__codelineno-0-63" href="#__codelineno-0-63"></a>│   │   │   │       └── Simple Linear Regression Exercise 25 0.Png
-<a id="__codelineno-0-64" name="__codelineno-0-64" href="#__codelineno-0-64"></a>│   │   │   ├── Gdp Per Capita Usa.Csv
-<a id="__codelineno-0-65" name="__codelineno-0-65" href="#__codelineno-0-65"></a>│   │   │   ├── Housing.Csv
-<a id="__codelineno-0-66" name="__codelineno-0-66" href="#__codelineno-0-66"></a>│   │   │   ├── Predicted House Prices.Csv
-<a id="__codelineno-0-67" name="__codelineno-0-67" href="#__codelineno-0-67"></a>│   │   │   ├── Simple Logistic Regression.Md
-<a id="__codelineno-0-68" name="__codelineno-0-68" href="#__codelineno-0-68"></a>│   │   │   ├── Simple Logistic Regression Files
-<a id="__codelineno-0-69" name="__codelineno-0-69" href="#__codelineno-0-69"></a>│   │   │   │   ├── Simple Logistic Regression 16 0.Png
-<a id="__codelineno-0-70" name="__codelineno-0-70" href="#__codelineno-0-70"></a>│   │   │   │   ├── Simple Logistic Regression 21 1.Png
-<a id="__codelineno-0-71" name="__codelineno-0-71" href="#__codelineno-0-71"></a>│   │   │   │   ├── Simple Logistic Regression 25 0.Png
-<a id="__codelineno-0-72" name="__codelineno-0-72" href="#__codelineno-0-72"></a>│   │   │   │   └── Simple Logistic Regression 28 0.Png
-<a id="__codelineno-0-73" name="__codelineno-0-73" href="#__codelineno-0-73"></a>│   │   │   └── Untitled.Md
-<a id="__codelineno-0-74" name="__codelineno-0-74" href="#__codelineno-0-74"></a>│   │   ├── Decision Tree
-<a id="__codelineno-0-75" name="__codelineno-0-75" href="#__codelineno-0-75"></a>│   │   │   ├── Decision Tree Classifier.Md
-<a id="__codelineno-0-76" name="__codelineno-0-76" href="#__codelineno-0-76"></a>│   │   │   └── Decision Tree Classifier Files
-<a id="__codelineno-0-77" name="__codelineno-0-77" href="#__codelineno-0-77"></a>│   │   │       ├── Decision Tree Classifier 22 0.Png
-<a id="__codelineno-0-78" name="__codelineno-0-78" href="#__codelineno-0-78"></a>│   │   │       ├── Decision Tree Classifier 23 0.Png
-<a id="__codelineno-0-79" name="__codelineno-0-79" href="#__codelineno-0-79"></a>│   │   │       ├── Decision Tree Classifier 31 0.Png
-<a id="__codelineno-0-80" name="__codelineno-0-80" href="#__codelineno-0-80"></a>│   │   │       └── Decision Tree Classifier 33 0.Png
-<a id="__codelineno-0-81" name="__codelineno-0-81" href="#__codelineno-0-81"></a>│   │   ├── Datasets
-<a id="__codelineno-0-82" name="__codelineno-0-82" href="#__codelineno-0-82"></a>│   │   │   ├── Aqi Data.Csv
-<a id="__codelineno-0-83" name="__codelineno-0-83" href="#__codelineno-0-83"></a>│   │   │   ├── Dailydelhiclimatetest.Csv
-<a id="__codelineno-0-84" name="__codelineno-0-84" href="#__codelineno-0-84"></a>│   │   │   ├── Gpp And Gcvi Data.Csv
-<a id="__codelineno-0-85" name="__codelineno-0-85" href="#__codelineno-0-85"></a>│   │   │   ├── Globallandtemperaturesbycity.Csv
-<a id="__codelineno-0-86" name="__codelineno-0-86" href="#__codelineno-0-86"></a>│   │   │   ├── Hr Comma Sep.Csv
-<a id="__codelineno-0-87" name="__codelineno-0-87" href="#__codelineno-0-87"></a>│   │   │   ├── Life Expectancy Data.Csv
-<a id="__codelineno-0-88" name="__codelineno-0-88" href="#__codelineno-0-88"></a>│   │   │   ├── Salary Data.Csv
-<a id="__codelineno-0-89" name="__codelineno-0-89" href="#__codelineno-0-89"></a>│   │   │   ├── Sample Weather Data.Csv
-<a id="__codelineno-0-90" name="__codelineno-0-90" href="#__codelineno-0-90"></a>│   │   │   ├── Sample Weather Data.Xlsx
-<a id="__codelineno-0-91" name="__codelineno-0-91" href="#__codelineno-0-91"></a>│   │   │   ├── Significant Earthquakes 2000 2020.Csv
-<a id="__codelineno-0-92" name="__codelineno-0-92" href="#__codelineno-0-92"></a>│   │   │   ├── Stock Data.Csv
-<a id="__codelineno-0-93" name="__codelineno-0-93" href="#__codelineno-0-93"></a>│   │   │   ├── Stock Data.Xlsx
-<a id="__codelineno-0-94" name="__codelineno-0-94" href="#__codelineno-0-94"></a>│   │   │   └── Weather.Csv
-<a id="__codelineno-0-95" name="__codelineno-0-95" href="#__codelineno-0-95"></a>│   │   ├── Projects
-<a id="__codelineno-0-96" name="__codelineno-0-96" href="#__codelineno-0-96"></a>│   │   │   ├── Predicting Life Expectancy Using Linear Regression.Md
-<a id="__codelineno-0-97" name="__codelineno-0-97" href="#__codelineno-0-97"></a>│   │   │   ├── Predicting Life Expectancy Using Linear Regression Files
-<a id="__codelineno-0-98" name="__codelineno-0-98" href="#__codelineno-0-98"></a>│   │   │   │   ├── Predicting Life Expectancy Using Linear Regression 22 0.Png
-<a id="__codelineno-0-99" name="__codelineno-0-99" href="#__codelineno-0-99"></a>│   │   │   │   └── Predicting Life Expectancy Using Linear Regression 7 1.Png
-<a id="__codelineno-0-100" name="__codelineno-0-100" href="#__codelineno-0-100"></a>│   │   │   ├── Predicting Aqi Using Regression.Md
-<a id="__codelineno-0-101" name="__codelineno-0-101" href="#__codelineno-0-101"></a>│   │   │   └── Predicting Aqi Using Regression Files
-<a id="__codelineno-0-102" name="__codelineno-0-102" href="#__codelineno-0-102"></a>│   │   │       └── Predicting Aqi Using Regression 11 1.Png
-<a id="__codelineno-0-103" name="__codelineno-0-103" href="#__codelineno-0-103"></a>│   │   └── Random Practices
-<a id="__codelineno-0-104" name="__codelineno-0-104" href="#__codelineno-0-104"></a>│   │       ├── Practice.Md
-<a id="__codelineno-0-105" name="__codelineno-0-105" href="#__codelineno-0-105"></a>│   │       ├── Untitled.Md
-<a id="__codelineno-0-106" name="__codelineno-0-106" href="#__codelineno-0-106"></a>│   │       ├── Untitled1.Md
-<a id="__codelineno-0-107" name="__codelineno-0-107" href="#__codelineno-0-107"></a>│   │       ├── Untitled1 Files
-<a id="__codelineno-0-108" name="__codelineno-0-108" href="#__codelineno-0-108"></a>│   │       │   └── Untitled1 12 1.Png
-<a id="__codelineno-0-109" name="__codelineno-0-109" href="#__codelineno-0-109"></a>│   │       └── Untitled2.Md
-<a id="__codelineno-0-110" name="__codelineno-0-110" href="#__codelineno-0-110"></a>│   ├── Data Wrangling With Xarray
-<a id="__codelineno-0-111" name="__codelineno-0-111" href="#__codelineno-0-111"></a>│   │   └── Fundamentals
-<a id="__codelineno-0-112" name="__codelineno-0-112" href="#__codelineno-0-112"></a>│   └── End To End Machine Learning
-<a id="__codelineno-0-113" name="__codelineno-0-113" href="#__codelineno-0-113"></a>│       ├── Data Gathering
-<a id="__codelineno-0-114" name="__codelineno-0-114" href="#__codelineno-0-114"></a>│       ├── Exploratory Data Analysis (Eda)
-<a id="__codelineno-0-115" name="__codelineno-0-115" href="#__codelineno-0-115"></a>│       ├── Feature Engineering
-<a id="__codelineno-0-116" name="__codelineno-0-116" href="#__codelineno-0-116"></a>│       └── Machine Learning Algorithms
-<a id="__codelineno-0-117" name="__codelineno-0-117" href="#__codelineno-0-117"></a>│           ├── Linear Regression
-<a id="__codelineno-0-118" name="__codelineno-0-118" href="#__codelineno-0-118"></a>│           ├── Gradient Descent
-<a id="__codelineno-0-119" name="__codelineno-0-119" href="#__codelineno-0-119"></a>│           ├── Polynomial Regression
-<a id="__codelineno-0-120" name="__codelineno-0-120" href="#__codelineno-0-120"></a>│           ├── Logistic Regression
-<a id="__codelineno-0-121" name="__codelineno-0-121" href="#__codelineno-0-121"></a>│           ├── Support Vector Machine
-<a id="__codelineno-0-122" name="__codelineno-0-122" href="#__codelineno-0-122"></a>│           ├── Decision Tree
-<a id="__codelineno-0-123" name="__codelineno-0-123" href="#__codelineno-0-123"></a>│           └── Adaboost
-<a id="__codelineno-0-124" name="__codelineno-0-124" href="#__codelineno-0-124"></a>├── Deep Learning
-<a id="__codelineno-0-125" name="__codelineno-0-125" href="#__codelineno-0-125"></a>│   ├── End To End Deep Learning
-<a id="__codelineno-0-126" name="__codelineno-0-126" href="#__codelineno-0-126"></a>│   │   ├── Ann
-<a id="__codelineno-0-127" name="__codelineno-0-127" href="#__codelineno-0-127"></a>│   │   └── Cnn
-<a id="__codelineno-0-128" name="__codelineno-0-128" href="#__codelineno-0-128"></a>│   ├── Deep Learning From Scratch
-<a id="__codelineno-0-129" name="__codelineno-0-129" href="#__codelineno-0-129"></a>│   │   ├── [2] Srgan
-<a id="__codelineno-0-130" name="__codelineno-0-130" href="#__codelineno-0-130"></a>│   │   │   └── Model.Py
-<a id="__codelineno-0-131" name="__codelineno-0-131" href="#__codelineno-0-131"></a>│   │   ├── [3] Transformers
-<a id="__codelineno-0-132" name="__codelineno-0-132" href="#__codelineno-0-132"></a>│   │   ├── [4] Vision Transformer (Vit)
-<a id="__codelineno-0-133" name="__codelineno-0-133" href="#__codelineno-0-133"></a>│   │   ├── [5] Nanovlm
-<a id="__codelineno-0-134" name="__codelineno-0-134" href="#__codelineno-0-134"></a>│   │   ├── [6] Variational Autoencoders
-<a id="__codelineno-0-135" name="__codelineno-0-135" href="#__codelineno-0-135"></a>│   │   └── [7] Diffusion Models
-<a id="__codelineno-0-136" name="__codelineno-0-136" href="#__codelineno-0-136"></a>│   └── Pytorch For Deep Learning And Machine Learning
-<a id="__codelineno-0-137" name="__codelineno-0-137" href="#__codelineno-0-137"></a>│       ├── Cnn
-<a id="__codelineno-0-138" name="__codelineno-0-138" href="#__codelineno-0-138"></a>│       ├── Pytorch Campusx
-<a id="__codelineno-0-139" name="__codelineno-0-139" href="#__codelineno-0-139"></a>│       └── Projects
-<a id="__codelineno-0-140" name="__codelineno-0-140" href="#__codelineno-0-140"></a>├── Fundamentals
-<a id="__codelineno-0-141" name="__codelineno-0-141" href="#__codelineno-0-141"></a>│   ├── Python Basics Learn To Code From Scratch
-<a id="__codelineno-0-142" name="__codelineno-0-142" href="#__codelineno-0-142"></a>│   │   ├── Introduction To Python
-<a id="__codelineno-0-143" name="__codelineno-0-143" href="#__codelineno-0-143"></a>│   │   ├── Variables And Datatypes
-<a id="__codelineno-0-144" name="__codelineno-0-144" href="#__codelineno-0-144"></a>│   │   ├── Basic Input And Output
-<a id="__codelineno-0-145" name="__codelineno-0-145" href="#__codelineno-0-145"></a>│   │   ├── Operators In Python
-<a id="__codelineno-0-146" name="__codelineno-0-146" href="#__codelineno-0-146"></a>│   │   ├── Conditional Statements And Loop
-<a id="__codelineno-0-147" name="__codelineno-0-147" href="#__codelineno-0-147"></a>│   │   ├── Function In Python
-<a id="__codelineno-0-148" name="__codelineno-0-148" href="#__codelineno-0-148"></a>│   │   ├── List In Python
-<a id="__codelineno-0-149" name="__codelineno-0-149" href="#__codelineno-0-149"></a>│   │   ├── String
-<a id="__codelineno-0-150" name="__codelineno-0-150" href="#__codelineno-0-150"></a>│   │   ├── Object Oriented Programming
-<a id="__codelineno-0-151" name="__codelineno-0-151" href="#__codelineno-0-151"></a>│   │   ├── Exception Handling
-<a id="__codelineno-0-152" name="__codelineno-0-152" href="#__codelineno-0-152"></a>│   │   └── Class Code
-<a id="__codelineno-0-153" name="__codelineno-0-153" href="#__codelineno-0-153"></a>│   │       └── Test.Py
-<a id="__codelineno-0-154" name="__codelineno-0-154" href="#__codelineno-0-154"></a>│   └── Python For Beginners To Pros
-<a id="__codelineno-0-155" name="__codelineno-0-155" href="#__codelineno-0-155"></a>│       ├── Exercises
-<a id="__codelineno-0-156" name="__codelineno-0-156" href="#__codelineno-0-156"></a>│       └── Notebooks
-<a id="__codelineno-0-157" name="__codelineno-0-157" href="#__codelineno-0-157"></a>├── Geospatial
-<a id="__codelineno-0-158" name="__codelineno-0-158" href="#__codelineno-0-158"></a>│   ├── Geospatial Data Science With Python
-<a id="__codelineno-0-159" name="__codelineno-0-159" href="#__codelineno-0-159"></a>│   │   ├── Working With Projections
-<a id="__codelineno-0-160" name="__codelineno-0-160" href="#__codelineno-0-160"></a>│   │   ├── Exploring Geospatial Packages
-<a id="__codelineno-0-161" name="__codelineno-0-161" href="#__codelineno-0-161"></a>│   │   ├── Exploratory Spatial Data Analysis
-<a id="__codelineno-0-162" name="__codelineno-0-162" href="#__codelineno-0-162"></a>│   │   └── Datasets
-<a id="__codelineno-0-163" name="__codelineno-0-163" href="#__codelineno-0-163"></a>│   │       ├── Csvs
-<a id="__codelineno-0-164" name="__codelineno-0-164" href="#__codelineno-0-164"></a>│   │       │   ├── Kolkata City Attractions.Csv
-<a id="__codelineno-0-165" name="__codelineno-0-165" href="#__codelineno-0-165"></a>│   │       │   └── Housing.Csv
-<a id="__codelineno-0-166" name="__codelineno-0-166" href="#__codelineno-0-166"></a>│   │       └── Shapefiles
-<a id="__codelineno-0-167" name="__codelineno-0-167" href="#__codelineno-0-167"></a>│   │           ├── Ca Cbsas.Cpg
-<a id="__codelineno-0-168" name="__codelineno-0-168" href="#__codelineno-0-168"></a>│   │           ├── Ca Cbsas.Dbf
-<a id="__codelineno-0-169" name="__codelineno-0-169" href="#__codelineno-0-169"></a>│   │           ├── Ca Cbsas.Geojson
-<a id="__codelineno-0-170" name="__codelineno-0-170" href="#__codelineno-0-170"></a>│   │           ├── Ca Cbsas.Prj
-<a id="__codelineno-0-171" name="__codelineno-0-171" href="#__codelineno-0-171"></a>│   │           ├── Ca Cbsas.Shp
-<a id="__codelineno-0-172" name="__codelineno-0-172" href="#__codelineno-0-172"></a>│   │           ├── Ca Cbsas.Shx
-<a id="__codelineno-0-173" name="__codelineno-0-173" href="#__codelineno-0-173"></a>│   │           ├── Ne 10M Land.Cpg
-<a id="__codelineno-0-174" name="__codelineno-0-174" href="#__codelineno-0-174"></a>│   │           ├── Ne 10M Land.Dbf
-<a id="__codelineno-0-175" name="__codelineno-0-175" href="#__codelineno-0-175"></a>│   │           ├── Ne 10M Land.Prj
-<a id="__codelineno-0-176" name="__codelineno-0-176" href="#__codelineno-0-176"></a>│   │           ├── Ne 10M Land.Shp
-<a id="__codelineno-0-177" name="__codelineno-0-177" href="#__codelineno-0-177"></a>│   │           ├── Ne 10M Land.Shx
-<a id="__codelineno-0-178" name="__codelineno-0-178" href="#__codelineno-0-178"></a>│   │           ├── Ne 10M Populated Places Simple.Cpg
-<a id="__codelineno-0-179" name="__codelineno-0-179" href="#__codelineno-0-179"></a>│   │           ├── Ne 10M Populated Places Simple.Dbf
-<a id="__codelineno-0-180" name="__codelineno-0-180" href="#__codelineno-0-180"></a>│   │           ├── Ne 10M Populated Places Simple.Prj
-<a id="__codelineno-0-181" name="__codelineno-0-181" href="#__codelineno-0-181"></a>│   │           ├── Ne 10M Populated Places Simple.Shp
-<a id="__codelineno-0-182" name="__codelineno-0-182" href="#__codelineno-0-182"></a>│   │           ├── Ne 10M Populated Places Simple.Shx
-<a id="__codelineno-0-183" name="__codelineno-0-183" href="#__codelineno-0-183"></a>│   │           ├── Ne 110M Graticules 10.Cpg
-<a id="__codelineno-0-184" name="__codelineno-0-184" href="#__codelineno-0-184"></a>│   │           ├── Ne 110M Graticules 10.Dbf
-<a id="__codelineno-0-185" name="__codelineno-0-185" href="#__codelineno-0-185"></a>│   │           ├── Ne 110M Graticules 10.Prj
-<a id="__codelineno-0-186" name="__codelineno-0-186" href="#__codelineno-0-186"></a>│   │           ├── Ne 110M Graticules 10.Shp
-<a id="__codelineno-0-187" name="__codelineno-0-187" href="#__codelineno-0-187"></a>│   │           ├── Ne 110M Graticules 10.Shx
-<a id="__codelineno-0-188" name="__codelineno-0-188" href="#__codelineno-0-188"></a>│   │           ├── Tl 2021 Us Cbsa.Zip
-<a id="__codelineno-0-189" name="__codelineno-0-189" href="#__codelineno-0-189"></a>│   │           ├── Tl 2021 Us State.Zip
-<a id="__codelineno-0-190" name="__codelineno-0-190" href="#__codelineno-0-190"></a>│   │           └── Tl 2022 Us County.Zip
-<a id="__codelineno-0-191" name="__codelineno-0-191" href="#__codelineno-0-191"></a>│   ├── Image Analysis In Remote Sensing With Python
-<a id="__codelineno-0-192" name="__codelineno-0-192" href="#__codelineno-0-192"></a>│   │   ├── Images Arrays Matrices
-<a id="__codelineno-0-193" name="__codelineno-0-193" href="#__codelineno-0-193"></a>│   │   └── Machine Learning With Scikit Learn
-<a id="__codelineno-0-194" name="__codelineno-0-194" href="#__codelineno-0-194"></a>│   ├── Mastering Machine Learning And Gee For Earth Science
-<a id="__codelineno-0-195" name="__codelineno-0-195" href="#__codelineno-0-195"></a>│   │   ├── Geemap
-<a id="__codelineno-0-196" name="__codelineno-0-196" href="#__codelineno-0-196"></a>│   │   ├── Data Gathering
-<a id="__codelineno-0-197" name="__codelineno-0-197" href="#__codelineno-0-197"></a>│   │   ├── Exploratory Data Analysis
-<a id="__codelineno-0-198" name="__codelineno-0-198" href="#__codelineno-0-198"></a>│   │   ├── Feature Engineering
-<a id="__codelineno-0-199" name="__codelineno-0-199" href="#__codelineno-0-199"></a>│   │   └── Machine Learning Algorithms
-<a id="__codelineno-0-200" name="__codelineno-0-200" href="#__codelineno-0-200"></a>│   ├── Climate Data Downscaling
-<a id="__codelineno-0-201" name="__codelineno-0-201" href="#__codelineno-0-201"></a>│   │   ├── Config.Py
-<a id="__codelineno-0-202" name="__codelineno-0-202" href="#__codelineno-0-202"></a>│   │   ├── Dataset.Py
-<a id="__codelineno-0-203" name="__codelineno-0-203" href="#__codelineno-0-203"></a>│   │   ├── Loss.Py
-<a id="__codelineno-0-204" name="__codelineno-0-204" href="#__codelineno-0-204"></a>│   │   ├── Model.Py
-<a id="__codelineno-0-205" name="__codelineno-0-205" href="#__codelineno-0-205"></a>│   │   ├── Train.Md
-<a id="__codelineno-0-206" name="__codelineno-0-206" href="#__codelineno-0-206"></a>│   │   ├── Train.Py
-<a id="__codelineno-0-207" name="__codelineno-0-207" href="#__codelineno-0-207"></a>│   │   ├── Train Files
-<a id="__codelineno-0-208" name="__codelineno-0-208" href="#__codelineno-0-208"></a>│   │   │   ├── Train 11 0.Png
-<a id="__codelineno-0-209" name="__codelineno-0-209" href="#__codelineno-0-209"></a>│   │   │   ├── Train 12 0.Png
-<a id="__codelineno-0-210" name="__codelineno-0-210" href="#__codelineno-0-210"></a>│   │   │   └── Train 13 0.Png
-<a id="__codelineno-0-211" name="__codelineno-0-211" href="#__codelineno-0-211"></a>│   │   └── Utils.Py
-<a id="__codelineno-0-212" name="__codelineno-0-212" href="#__codelineno-0-212"></a>│   └── Geonext Handbook
-<a id="__codelineno-0-213" name="__codelineno-0-213" href="#__codelineno-0-213"></a>│       ├── Conduct.Md
-<a id="__codelineno-0-214" name="__codelineno-0-214" href="#__codelineno-0-214"></a>│       ├── Contributing.Md
-<a id="__codelineno-0-215" name="__codelineno-0-215" href="#__codelineno-0-215"></a>│       ├── Readme.Md
-<a id="__codelineno-0-216" name="__codelineno-0-216" href="#__codelineno-0-216"></a>│       ├──  Config.Yml
-<a id="__codelineno-0-217" name="__codelineno-0-217" href="#__codelineno-0-217"></a>│       ├──  Toc.Yml
-<a id="__codelineno-0-218" name="__codelineno-0-218" href="#__codelineno-0-218"></a>│       ├── Book
-<a id="__codelineno-0-219" name="__codelineno-0-219" href="#__codelineno-0-219"></a>│       │   ├── Bibliography.Md
-<a id="__codelineno-0-220" name="__codelineno-0-220" href="#__codelineno-0-220"></a>│       │   ├── Markdown.Md
-<a id="__codelineno-0-221" name="__codelineno-0-221" href="#__codelineno-0-221"></a>│       │   └── References.Bib
-<a id="__codelineno-0-222" name="__codelineno-0-222" href="#__codelineno-0-222"></a>│       ├── Fav.Ico
-<a id="__codelineno-0-223" name="__codelineno-0-223" href="#__codelineno-0-223"></a>│       ├── Logo.Png
-<a id="__codelineno-0-224" name="__codelineno-0-224" href="#__codelineno-0-224"></a>│       └── Requirements.Txt
-<a id="__codelineno-0-225" name="__codelineno-0-225" href="#__codelineno-0-225"></a>└── Projects
-<a id="__codelineno-0-226" name="__codelineno-0-226" href="#__codelineno-0-226"></a>    ├── Crop Yield Forecasting Germany
-<a id="__codelineno-0-227" name="__codelineno-0-227" href="#__codelineno-0-227"></a>    │   ├── Yield Data Preparation.Md
-<a id="__codelineno-0-228" name="__codelineno-0-228" href="#__codelineno-0-228"></a>    │   ├── Yield Data Preparation Files
-<a id="__codelineno-0-229" name="__codelineno-0-229" href="#__codelineno-0-229"></a>    │   │   └── Yield Data Preparation 20 1.Png
-<a id="__codelineno-0-230" name="__codelineno-0-230" href="#__codelineno-0-230"></a>    │   ├── Data Preparation For Pbms.Md
-<a id="__codelineno-0-231" name="__codelineno-0-231" href="#__codelineno-0-231"></a>    │   ├── Data Preparation For Pbms.Md
-<a id="__codelineno-0-232" name="__codelineno-0-232" href="#__codelineno-0-232"></a>    │   └── Literatures
-<a id="__codelineno-0-233" name="__codelineno-0-233" href="#__codelineno-0-233"></a>    │       ├── Years Of The Wofost Cropping Systems Model.Pdf
-<a id="__codelineno-0-234" name="__codelineno-0-234" href="#__codelineno-0-234"></a>    │       └── Machine Learning For Large Scale Crop Yield Forecasting.Pdf
-<a id="__codelineno-0-235" name="__codelineno-0-235" href="#__codelineno-0-235"></a>    ├── Flood Susceptibility Zonation Of Malda District
-<a id="__codelineno-0-236" name="__codelineno-0-236" href="#__codelineno-0-236"></a>    │   ├── Gee Codes
-<a id="__codelineno-0-237" name="__codelineno-0-237" href="#__codelineno-0-237"></a>    │   │   ├── Flood Zone Detection Using Sar.Js
-<a id="__codelineno-0-238" name="__codelineno-0-238" href="#__codelineno-0-238"></a>    │   │   ├── Flooded And Non Flooded Point Generation.Js
-<a id="__codelineno-0-239" name="__codelineno-0-239" href="#__codelineno-0-239"></a>    │   │   └── Training And Testing Data Preparation.Js
-<a id="__codelineno-0-240" name="__codelineno-0-240" href="#__codelineno-0-240"></a>    │   ├── Model
-<a id="__codelineno-0-241" name="__codelineno-0-241" href="#__codelineno-0-241"></a>    │   │   ├── Log Reg Model.Pkl
-<a id="__codelineno-0-242" name="__codelineno-0-242" href="#__codelineno-0-242"></a>    │   │   ├── Rf Model.Pkl
-<a id="__codelineno-0-243" name="__codelineno-0-243" href="#__codelineno-0-243"></a>    │   │   ├── Svm Model.Pkl
-<a id="__codelineno-0-244" name="__codelineno-0-244" href="#__codelineno-0-244"></a>    │   │   └── Xgb Model.Pkl
-<a id="__codelineno-0-245" name="__codelineno-0-245" href="#__codelineno-0-245"></a>    │   └── Notebooks
-<a id="__codelineno-0-246" name="__codelineno-0-246" href="#__codelineno-0-246"></a>    ├── Indi Res
-<a id="__codelineno-0-247" name="__codelineno-0-247" href="#__codelineno-0-247"></a>    │   ├── Notebooks
-<a id="__codelineno-0-248" name="__codelineno-0-248" href="#__codelineno-0-248"></a>    │   │   ├── Exploration
-<a id="__codelineno-0-249" name="__codelineno-0-249" href="#__codelineno-0-249"></a>    │   │   ├── Preprocessing
-<a id="__codelineno-0-250" name="__codelineno-0-250" href="#__codelineno-0-250"></a>    │   │   └── Modeling
-<a id="__codelineno-0-251" name="__codelineno-0-251" href="#__codelineno-0-251"></a>    │   └── Src
-<a id="__codelineno-0-252" name="__codelineno-0-252" href="#__codelineno-0-252"></a>    │       └── Indi Res
-<a id="__codelineno-0-253" name="__codelineno-0-253" href="#__codelineno-0-253"></a>    │           └── Models
-<a id="__codelineno-0-254" name="__codelineno-0-254" href="#__codelineno-0-254"></a>    │               ├── Convlstm.Py
-<a id="__codelineno-0-255" name="__codelineno-0-255" href="#__codelineno-0-255"></a>    │               ├── Discriminator.Py
-<a id="__codelineno-0-256" name="__codelineno-0-256" href="#__codelineno-0-256"></a>    │               └── Generator.Py
-<a id="__codelineno-0-257" name="__codelineno-0-257" href="#__codelineno-0-257"></a>    └── Pyimgproc Image Processing Using Python
+<p>Explore the various sections of this documentation through the interactive tree below. Note that for most tutorials, an <strong>Open in Colab</strong> button is available at the top of the page.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>├── 📁 Data Science
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>│   ├── 📁 Data Science Bootcamp With Python
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>│   │   ├── 📁 Introduction To Jupyter Notebook
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>│   │   │   ├── 📓 Jupyter Notebook Tutorial.Ipynb
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>│   │   │   └── 📄 Jupyter Notebook Tutorial.Md
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>│   │   ├── 📁 Introduction To Numpy
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>│   │   │   ├── 📓 Introduction To Numpy.Ipynb
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>│   │   │   ├── 📄 Introduction To Numpy.Md
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>│   │   │   ├── 📓 Numpy Axis.Ipynb
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>│   │   │   ├── 📄 Numpy Axis.Md
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>│   │   │   ├── 📓 Numpy Attributes And Methods.Ipynb
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>│   │   │   ├── 📄 Numpy Attributes And Methods.Md
+<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>│   │   │   ├── 📓 Mathematical Operations Using Numpy.Ipynb
+<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>│   │   │   ├── 📄 Mathematical Operations Using Numpy.Md
+<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>│   │   │   ├── 📓 Advantages Of Using Numpy.Ipynb
+<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>│   │   │   ├── 📄 Advantages Of Using Numpy.Md
+<a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>│   │   │   └── 📁 Random Practice
+<a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>│   │   │       └── 📓 Practice.Ipynb
+<a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a>│   │   ├── 📁 Introduction To Pandas
+<a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a>│   │   │   ├── 📓 Introduction To Pandas.Ipynb
+<a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a>│   │   │   ├── 📄 Introduction To Pandas.Md
+<a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a>│   │   │   ├── 📓 Pandas Dataframe.Ipynb
+<a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a>│   │   │   ├── 📄 Pandas Dataframe.Md
+<a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a>│   │   │   ├── 📓 Different Ways Of Creating Dataframe.Ipynb
+<a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a>│   │   │   ├── 📄 Different Ways Of Creating Dataframe.Md
+<a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a>│   │   │   ├── 📓 Read Write Excel Csv.Ipynb
+<a id="__codelineno-0-27" name="__codelineno-0-27" href="#__codelineno-0-27"></a>│   │   │   ├── 📄 Read Write Excel Csv.Md
+<a id="__codelineno-0-28" name="__codelineno-0-28" href="#__codelineno-0-28"></a>│   │   │   ├── 📓 Handle Missing Data.Ipynb
+<a id="__codelineno-0-29" name="__codelineno-0-29" href="#__codelineno-0-29"></a>│   │   │   ├── 📄 Handle Missing Data.Md
+<a id="__codelineno-0-30" name="__codelineno-0-30" href="#__codelineno-0-30"></a>│   │   │   ├── 📓 Handle Missing Data.Ipynb
+<a id="__codelineno-0-31" name="__codelineno-0-31" href="#__codelineno-0-31"></a>│   │   │   ├── 📄 Handle Missing Data.Md
+<a id="__codelineno-0-32" name="__codelineno-0-32" href="#__codelineno-0-32"></a>│   │   │   ├── 📓 Group By Method.Ipynb
+<a id="__codelineno-0-33" name="__codelineno-0-33" href="#__codelineno-0-33"></a>│   │   │   ├── 📄 Group By Method.Md
+<a id="__codelineno-0-34" name="__codelineno-0-34" href="#__codelineno-0-34"></a>│   │   │   └── 📁 Datasets
+<a id="__codelineno-0-35" name="__codelineno-0-35" href="#__codelineno-0-35"></a>│   │   ├── 📁 Introduction To Matplotlib
+<a id="__codelineno-0-36" name="__codelineno-0-36" href="#__codelineno-0-36"></a>│   │   │   ├── 📓 Introduction To Matplotlib.Ipynb
+<a id="__codelineno-0-37" name="__codelineno-0-37" href="#__codelineno-0-37"></a>│   │   │   ├── 📄 Introduction To Matplotlib.Md
+<a id="__codelineno-0-38" name="__codelineno-0-38" href="#__codelineno-0-38"></a>│   │   │   ├── 📓 Format Strings In Plot Function.Ipynb
+<a id="__codelineno-0-39" name="__codelineno-0-39" href="#__codelineno-0-39"></a>│   │   │   └── 📄 Format Strings In Plot Function.Md
+<a id="__codelineno-0-40" name="__codelineno-0-40" href="#__codelineno-0-40"></a>│   │   ├── 📁 Linear Regression
+<a id="__codelineno-0-41" name="__codelineno-0-41" href="#__codelineno-0-41"></a>│   │   │   ├── 📓 Simple Linear Regression.Ipynb
+<a id="__codelineno-0-42" name="__codelineno-0-42" href="#__codelineno-0-42"></a>│   │   │   ├── 📄 Simple Linear Regression.Md
+<a id="__codelineno-0-43" name="__codelineno-0-43" href="#__codelineno-0-43"></a>│   │   │   ├── 📓 Multiple Linear Regression.Ipynb
+<a id="__codelineno-0-44" name="__codelineno-0-44" href="#__codelineno-0-44"></a>│   │   │   ├── 📄 Multiple Linear Regression.Md
+<a id="__codelineno-0-45" name="__codelineno-0-45" href="#__codelineno-0-45"></a>│   │   │   ├── 📓 Cost Function.Ipynb
+<a id="__codelineno-0-46" name="__codelineno-0-46" href="#__codelineno-0-46"></a>│   │   │   ├── 📄 Cost Function.Md
+<a id="__codelineno-0-47" name="__codelineno-0-47" href="#__codelineno-0-47"></a>│   │   │   ├── 📁 Exercises
+<a id="__codelineno-0-48" name="__codelineno-0-48" href="#__codelineno-0-48"></a>│   │   │   │   ├── 📓 Simple Linear Regression Exercise.Ipynb
+<a id="__codelineno-0-49" name="__codelineno-0-49" href="#__codelineno-0-49"></a>│   │   │   │   └── 📄 Simple Linear Regression Exercise.Md
+<a id="__codelineno-0-50" name="__codelineno-0-50" href="#__codelineno-0-50"></a>│   │   │   ├── 📓 Simple Logistic Regression.Ipynb
+<a id="__codelineno-0-51" name="__codelineno-0-51" href="#__codelineno-0-51"></a>│   │   │   ├── 📄 Simple Logistic Regression.Md
+<a id="__codelineno-0-52" name="__codelineno-0-52" href="#__codelineno-0-52"></a>│   │   │   ├── 📓 Untitled.Ipynb
+<a id="__codelineno-0-53" name="__codelineno-0-53" href="#__codelineno-0-53"></a>│   │   │   └── 📄 Untitled.Md
+<a id="__codelineno-0-54" name="__codelineno-0-54" href="#__codelineno-0-54"></a>│   │   ├── 📁 Decision Tree
+<a id="__codelineno-0-55" name="__codelineno-0-55" href="#__codelineno-0-55"></a>│   │   │   ├── 📓 Decision Tree Classifier.Ipynb
+<a id="__codelineno-0-56" name="__codelineno-0-56" href="#__codelineno-0-56"></a>│   │   │   └── 📄 Decision Tree Classifier.Md
+<a id="__codelineno-0-57" name="__codelineno-0-57" href="#__codelineno-0-57"></a>│   │   ├── 📁 Datasets
+<a id="__codelineno-0-58" name="__codelineno-0-58" href="#__codelineno-0-58"></a>│   │   ├── 📁 Projects
+<a id="__codelineno-0-59" name="__codelineno-0-59" href="#__codelineno-0-59"></a>│   │   │   ├── 📓 Predicting Life Expectancy Using Linear Regression.Ipynb
+<a id="__codelineno-0-60" name="__codelineno-0-60" href="#__codelineno-0-60"></a>│   │   │   ├── 📄 Predicting Life Expectancy Using Linear Regression.Md
+<a id="__codelineno-0-61" name="__codelineno-0-61" href="#__codelineno-0-61"></a>│   │   │   ├── 📓 Predicting Aqi Using Regression.Ipynb
+<a id="__codelineno-0-62" name="__codelineno-0-62" href="#__codelineno-0-62"></a>│   │   │   └── 📄 Predicting Aqi Using Regression.Md
+<a id="__codelineno-0-63" name="__codelineno-0-63" href="#__codelineno-0-63"></a>│   │   └── 📁 Random Practices
+<a id="__codelineno-0-64" name="__codelineno-0-64" href="#__codelineno-0-64"></a>│   │       ├── 📓 Practice.Ipynb
+<a id="__codelineno-0-65" name="__codelineno-0-65" href="#__codelineno-0-65"></a>│   │       ├── 📄 Practice.Md
+<a id="__codelineno-0-66" name="__codelineno-0-66" href="#__codelineno-0-66"></a>│   │       ├── 📓 Untitled.Ipynb
+<a id="__codelineno-0-67" name="__codelineno-0-67" href="#__codelineno-0-67"></a>│   │       ├── 📄 Untitled.Md
+<a id="__codelineno-0-68" name="__codelineno-0-68" href="#__codelineno-0-68"></a>│   │       ├── 📓 Untitled1.Ipynb
+<a id="__codelineno-0-69" name="__codelineno-0-69" href="#__codelineno-0-69"></a>│   │       ├── 📄 Untitled1.Md
+<a id="__codelineno-0-70" name="__codelineno-0-70" href="#__codelineno-0-70"></a>│   │       ├── 📓 Untitled2.Ipynb
+<a id="__codelineno-0-71" name="__codelineno-0-71" href="#__codelineno-0-71"></a>│   │       └── 📄 Untitled2.Md
+<a id="__codelineno-0-72" name="__codelineno-0-72" href="#__codelineno-0-72"></a>│   ├── 📁 Data Wrangling With Xarray
+<a id="__codelineno-0-73" name="__codelineno-0-73" href="#__codelineno-0-73"></a>│   │   └── 📁 Fundamentals
+<a id="__codelineno-0-74" name="__codelineno-0-74" href="#__codelineno-0-74"></a>│   │       └── 📓 Data Structures.Ipynb
+<a id="__codelineno-0-75" name="__codelineno-0-75" href="#__codelineno-0-75"></a>│   └── 📁 End To End Machine Learning
+<a id="__codelineno-0-76" name="__codelineno-0-76" href="#__codelineno-0-76"></a>│       ├── 📁 Data Gathering
+<a id="__codelineno-0-77" name="__codelineno-0-77" href="#__codelineno-0-77"></a>│       │   ├── 📓 Working With Csv Files.Ipynb
+<a id="__codelineno-0-78" name="__codelineno-0-78" href="#__codelineno-0-78"></a>│       │   ├── 📓 Working With Json And Sql.Ipynb
+<a id="__codelineno-0-79" name="__codelineno-0-79" href="#__codelineno-0-79"></a>│       │   ├── 📓 Fetching Data From An Api.Ipynb
+<a id="__codelineno-0-80" name="__codelineno-0-80" href="#__codelineno-0-80"></a>│       │   ├── 📓 Fetching Data Using Web Scrapping.Ipynb
+<a id="__codelineno-0-81" name="__codelineno-0-81" href="#__codelineno-0-81"></a>│       │   └── 📓 Understanding Your Data.Ipynb
+<a id="__codelineno-0-82" name="__codelineno-0-82" href="#__codelineno-0-82"></a>│       ├── 📁 Exploratory Data Analysis (Eda)
+<a id="__codelineno-0-83" name="__codelineno-0-83" href="#__codelineno-0-83"></a>│       │   ├── 📓 Eda Using Univariate Analysis.Ipynb
+<a id="__codelineno-0-84" name="__codelineno-0-84" href="#__codelineno-0-84"></a>│       │   ├── 📓 Eda Using Bivariate And Multivariate Analysis.Ipynb
+<a id="__codelineno-0-85" name="__codelineno-0-85" href="#__codelineno-0-85"></a>│       │   └── 📓 Pandas Profiling.Ipynb
+<a id="__codelineno-0-86" name="__codelineno-0-86" href="#__codelineno-0-86"></a>│       ├── 📁 Feature Engineering
+<a id="__codelineno-0-87" name="__codelineno-0-87" href="#__codelineno-0-87"></a>│       │   ├── 📓 Standardization.Ipynb
+<a id="__codelineno-0-88" name="__codelineno-0-88" href="#__codelineno-0-88"></a>│       │   ├── 📓 Normalization.Ipynb
+<a id="__codelineno-0-89" name="__codelineno-0-89" href="#__codelineno-0-89"></a>│       │   ├── 📓 Encoding Categorical Data.Ipynb
+<a id="__codelineno-0-90" name="__codelineno-0-90" href="#__codelineno-0-90"></a>│       │   ├── 📓 One Hot Encoding.Ipynb
+<a id="__codelineno-0-91" name="__codelineno-0-91" href="#__codelineno-0-91"></a>│       │   ├── 📓 Column Transformer.Ipynb
+<a id="__codelineno-0-92" name="__codelineno-0-92" href="#__codelineno-0-92"></a>│       │   ├── 📓 Ml Without Pipeline 1.Ipynb
+<a id="__codelineno-0-93" name="__codelineno-0-93" href="#__codelineno-0-93"></a>│       │   ├── 📓 Ml Without Pipeline 2.Ipynb
+<a id="__codelineno-0-94" name="__codelineno-0-94" href="#__codelineno-0-94"></a>│       │   ├── 📓 Ml With Pipeline 1.Ipynb
+<a id="__codelineno-0-95" name="__codelineno-0-95" href="#__codelineno-0-95"></a>│       │   ├── 📓 Ml With Pipeline 2.Ipynb
+<a id="__codelineno-0-96" name="__codelineno-0-96" href="#__codelineno-0-96"></a>│       │   ├── 📓 Function Transformer.Ipynb
+<a id="__codelineno-0-97" name="__codelineno-0-97" href="#__codelineno-0-97"></a>│       │   ├── 📓 Power Transformer.Ipynb
+<a id="__codelineno-0-98" name="__codelineno-0-98" href="#__codelineno-0-98"></a>│       │   ├── 📓 Discretization.Ipynb
+<a id="__codelineno-0-99" name="__codelineno-0-99" href="#__codelineno-0-99"></a>│       │   ├── 📓 Pca Step By Step.Ipynb
+<a id="__codelineno-0-100" name="__codelineno-0-100" href="#__codelineno-0-100"></a>│       │   └── 📓 Pca Implementation On Mnist Data.Ipynb
+<a id="__codelineno-0-101" name="__codelineno-0-101" href="#__codelineno-0-101"></a>│       └── 📁 Machine Learning Algorithms
+<a id="__codelineno-0-102" name="__codelineno-0-102" href="#__codelineno-0-102"></a>│           ├── 📁 Linear Regression
+<a id="__codelineno-0-103" name="__codelineno-0-103" href="#__codelineno-0-103"></a>│           │   ├── 📓 Simple Linear Regression.Ipynb
+<a id="__codelineno-0-104" name="__codelineno-0-104" href="#__codelineno-0-104"></a>│           │   ├── 📓 Mathematical Formulation Of Slr.Ipynb
+<a id="__codelineno-0-105" name="__codelineno-0-105" href="#__codelineno-0-105"></a>│           │   ├── 📓 Regression Metrics.Ipynb
+<a id="__codelineno-0-106" name="__codelineno-0-106" href="#__codelineno-0-106"></a>│           │   ├── 📓 Multiple Linear Regression.Ipynb
+<a id="__codelineno-0-107" name="__codelineno-0-107" href="#__codelineno-0-107"></a>│           │   └── 📓 Mathematical Formulation Of Mlr.Ipynb
+<a id="__codelineno-0-108" name="__codelineno-0-108" href="#__codelineno-0-108"></a>│           ├── 📁 Gradient Descent
+<a id="__codelineno-0-109" name="__codelineno-0-109" href="#__codelineno-0-109"></a>│           │   ├── 📓 Gradient Descent Step By Step 1.Ipynb
+<a id="__codelineno-0-110" name="__codelineno-0-110" href="#__codelineno-0-110"></a>│           │   ├── 📓 Gradient Descent Step By Step 2.Ipynb
+<a id="__codelineno-0-111" name="__codelineno-0-111" href="#__codelineno-0-111"></a>│           │   ├── 📓 Batch Gradient Descent.Ipynb
+<a id="__codelineno-0-112" name="__codelineno-0-112" href="#__codelineno-0-112"></a>│           │   ├── 📓 Stochastic Gradient Descent.Ipynb
+<a id="__codelineno-0-113" name="__codelineno-0-113" href="#__codelineno-0-113"></a>│           │   └── 📓 Mini Batch Gradient Descent.Ipynb
+<a id="__codelineno-0-114" name="__codelineno-0-114" href="#__codelineno-0-114"></a>│           ├── 📁 Polynomial Regression
+<a id="__codelineno-0-115" name="__codelineno-0-115" href="#__codelineno-0-115"></a>│           │   └── 📓 Polynomial Regression.Ipynb
+<a id="__codelineno-0-116" name="__codelineno-0-116" href="#__codelineno-0-116"></a>│           ├── 📁 Logistic Regression
+<a id="__codelineno-0-117" name="__codelineno-0-117" href="#__codelineno-0-117"></a>│           │   ├── 📓 Perceptron Trick.Ipynb
+<a id="__codelineno-0-118" name="__codelineno-0-118" href="#__codelineno-0-118"></a>│           │   └── 📓 Sigmoid Function.Ipynb
+<a id="__codelineno-0-119" name="__codelineno-0-119" href="#__codelineno-0-119"></a>│           ├── 📁 Support Vector Machine
+<a id="__codelineno-0-120" name="__codelineno-0-120" href="#__codelineno-0-120"></a>│           │   ├── 📓 Support Vector Machine.Ipynb
+<a id="__codelineno-0-121" name="__codelineno-0-121" href="#__codelineno-0-121"></a>│           │   └── 📓 Kernels In Svm.Ipynb
+<a id="__codelineno-0-122" name="__codelineno-0-122" href="#__codelineno-0-122"></a>│           ├── 📁 Decision Tree
+<a id="__codelineno-0-123" name="__codelineno-0-123" href="#__codelineno-0-123"></a>│           │   ├── 📓 Overfitting And Underfitting In Decision Trees.Ipynb
+<a id="__codelineno-0-124" name="__codelineno-0-124" href="#__codelineno-0-124"></a>│           │   └── 📓 Regression Tree.Ipynb
+<a id="__codelineno-0-125" name="__codelineno-0-125" href="#__codelineno-0-125"></a>│           └── 📁 Adaboost
+<a id="__codelineno-0-126" name="__codelineno-0-126" href="#__codelineno-0-126"></a>│               └── 📓 Adaboost Step By Step.Ipynb
+<a id="__codelineno-0-127" name="__codelineno-0-127" href="#__codelineno-0-127"></a>├── 📁 Deep Learning
+<a id="__codelineno-0-128" name="__codelineno-0-128" href="#__codelineno-0-128"></a>│   ├── 📁 End To End Deep Learning
+<a id="__codelineno-0-129" name="__codelineno-0-129" href="#__codelineno-0-129"></a>│   │   ├── 📁 Ann
+<a id="__codelineno-0-130" name="__codelineno-0-130" href="#__codelineno-0-130"></a>│   │   │   ├── 📓 Introduction To Perceptron.Ipynb
+<a id="__codelineno-0-131" name="__codelineno-0-131" href="#__codelineno-0-131"></a>│   │   │   ├── 📓 Perceptron Tricks.Ipynb
+<a id="__codelineno-0-132" name="__codelineno-0-132" href="#__codelineno-0-132"></a>│   │   │   ├── 📓 Problem With Perceptron.Ipynb
+<a id="__codelineno-0-133" name="__codelineno-0-133" href="#__codelineno-0-133"></a>│   │   │   ├── 📓 Customer Churn Prediction Using Ann.Ipynb
+<a id="__codelineno-0-134" name="__codelineno-0-134" href="#__codelineno-0-134"></a>│   │   │   ├── 📓 Handwritten Digit Classification.Ipynb
+<a id="__codelineno-0-135" name="__codelineno-0-135" href="#__codelineno-0-135"></a>│   │   │   ├── 📓 Graduate Admission Prediction Using Ann.Ipynb
+<a id="__codelineno-0-136" name="__codelineno-0-136" href="#__codelineno-0-136"></a>│   │   │   └── 📓 Backpropagation On Regression Data.Ipynb
+<a id="__codelineno-0-137" name="__codelineno-0-137" href="#__codelineno-0-137"></a>│   │   ├── 📁 Cnn
+<a id="__codelineno-0-138" name="__codelineno-0-138" href="#__codelineno-0-138"></a>│   │   │   ├── 📓 Introduction To Cnn.Ipynb
+<a id="__codelineno-0-139" name="__codelineno-0-139" href="#__codelineno-0-139"></a>│   │   │   ├── 📓 Cnn Vs Visual Cortex.Ipynb
+<a id="__codelineno-0-140" name="__codelineno-0-140" href="#__codelineno-0-140"></a>│   │   │   ├── 📓 Convolution Operation.Ipynb
+<a id="__codelineno-0-141" name="__codelineno-0-141" href="#__codelineno-0-141"></a>│   │   │   ├── 📓 Padding And Strides In Cnn.Ipynb
+<a id="__codelineno-0-142" name="__codelineno-0-142" href="#__codelineno-0-142"></a>│   │   │   ├── 📓 Pooling Layer In Cnn.Ipynb
+<a id="__codelineno-0-143" name="__codelineno-0-143" href="#__codelineno-0-143"></a>│   │   │   ├── 📓 Cnn Architecture And Lenet 5.Ipynb
+<a id="__codelineno-0-144" name="__codelineno-0-144" href="#__codelineno-0-144"></a>│   │   │   └── 📓 Cnn Vs Ann.Ipynb
+<a id="__codelineno-0-145" name="__codelineno-0-145" href="#__codelineno-0-145"></a>│   │   └── 📓 Activation Functions In Deep Learning.Ipynb
+<a id="__codelineno-0-146" name="__codelineno-0-146" href="#__codelineno-0-146"></a>│   ├── 📁 Deep Learning From Scratch
+<a id="__codelineno-0-147" name="__codelineno-0-147" href="#__codelineno-0-147"></a>│   │   ├── 📁 [2] Srgan
+<a id="__codelineno-0-148" name="__codelineno-0-148" href="#__codelineno-0-148"></a>│   │   │   ├── 📄 Model.Py
+<a id="__codelineno-0-149" name="__codelineno-0-149" href="#__codelineno-0-149"></a>│   │   │   └── 📓 Test.Ipynb
+<a id="__codelineno-0-150" name="__codelineno-0-150" href="#__codelineno-0-150"></a>│   │   ├── 📁 [3] Transformers
+<a id="__codelineno-0-151" name="__codelineno-0-151" href="#__codelineno-0-151"></a>│   │   │   ├── 📓 Simplified Attention Mechanism Without Trainable Weights.Ipynb
+<a id="__codelineno-0-152" name="__codelineno-0-152" href="#__codelineno-0-152"></a>│   │   │   ├── 📓 Self Attention With Trainable Weights.Ipynb
+<a id="__codelineno-0-153" name="__codelineno-0-153" href="#__codelineno-0-153"></a>│   │   │   ├── 📓 Causal Attention.Ipynb
+<a id="__codelineno-0-154" name="__codelineno-0-154" href="#__codelineno-0-154"></a>│   │   │   └── 📓 Multi Head Attention.Ipynb
+<a id="__codelineno-0-155" name="__codelineno-0-155" href="#__codelineno-0-155"></a>│   │   ├── 📁 [4] Vision Transformer (Vit)
+<a id="__codelineno-0-156" name="__codelineno-0-156" href="#__codelineno-0-156"></a>│   │   │   └── 📓 Coding Vit From Scratch.Ipynb
+<a id="__codelineno-0-157" name="__codelineno-0-157" href="#__codelineno-0-157"></a>│   │   ├── 📁 [5] Nanovlm
+<a id="__codelineno-0-158" name="__codelineno-0-158" href="#__codelineno-0-158"></a>│   │   │   └── 📓 Build Nanovlm From Scratch.Ipynb
+<a id="__codelineno-0-159" name="__codelineno-0-159" href="#__codelineno-0-159"></a>│   │   ├── 📁 [6] Variational Autoencoders
+<a id="__codelineno-0-160" name="__codelineno-0-160" href="#__codelineno-0-160"></a>│   │   │   └── 📓 Coding Vae From Scratch.Ipynb
+<a id="__codelineno-0-161" name="__codelineno-0-161" href="#__codelineno-0-161"></a>│   │   └── 📁 [7] Diffusion Models
+<a id="__codelineno-0-162" name="__codelineno-0-162" href="#__codelineno-0-162"></a>│   │       ├── 📓 Ddpm Forward Diffusion.Ipynb
+<a id="__codelineno-0-163" name="__codelineno-0-163" href="#__codelineno-0-163"></a>│   │       └── 📓 Ddpm Reverse Transition Kernel.Ipynb
+<a id="__codelineno-0-164" name="__codelineno-0-164" href="#__codelineno-0-164"></a>│   └── 📁 Pytorch For Deep Learning And Machine Learning
+<a id="__codelineno-0-165" name="__codelineno-0-165" href="#__codelineno-0-165"></a>│       ├── 📓 Pytorch Fundamentals.Ipynb
+<a id="__codelineno-0-166" name="__codelineno-0-166" href="#__codelineno-0-166"></a>│       ├── 📓 Pytorch Workflow.Ipynb
+<a id="__codelineno-0-167" name="__codelineno-0-167" href="#__codelineno-0-167"></a>│       ├── 📓 Pytorch Classification.Ipynb
+<a id="__codelineno-0-168" name="__codelineno-0-168" href="#__codelineno-0-168"></a>│       ├── 📓 Pytorch Computer Vision.Ipynb
+<a id="__codelineno-0-169" name="__codelineno-0-169" href="#__codelineno-0-169"></a>│       ├── 📁 Cnn
+<a id="__codelineno-0-170" name="__codelineno-0-170" href="#__codelineno-0-170"></a>│       │   ├── 📓 Introduction To Cnn.Ipynb
+<a id="__codelineno-0-171" name="__codelineno-0-171" href="#__codelineno-0-171"></a>│       │   ├── 📓 Cnn Vs Visual Cortex.Ipynb
+<a id="__codelineno-0-172" name="__codelineno-0-172" href="#__codelineno-0-172"></a>│       │   ├── 📓 Convolution Operation.Ipynb
+<a id="__codelineno-0-173" name="__codelineno-0-173" href="#__codelineno-0-173"></a>│       │   ├── 📓 Padding And Strides In Cnn.Ipynb
+<a id="__codelineno-0-174" name="__codelineno-0-174" href="#__codelineno-0-174"></a>│       │   ├── 📓 Pooling Layer In Cnn.Ipynb
+<a id="__codelineno-0-175" name="__codelineno-0-175" href="#__codelineno-0-175"></a>│       │   ├── 📓 Cnn Architecture And Lenet 5.Ipynb
+<a id="__codelineno-0-176" name="__codelineno-0-176" href="#__codelineno-0-176"></a>│       │   ├── 📓 Cnn Vs Ann.Ipynb
+<a id="__codelineno-0-177" name="__codelineno-0-177" href="#__codelineno-0-177"></a>│       │   └── 📓 Cat Vs Dogs Image Classification.Ipynb
+<a id="__codelineno-0-178" name="__codelineno-0-178" href="#__codelineno-0-178"></a>│       ├── 📁 Pytorch Campusx
+<a id="__codelineno-0-179" name="__codelineno-0-179" href="#__codelineno-0-179"></a>│       │   ├── 📓 Pytorch Autograd.Ipynb
+<a id="__codelineno-0-180" name="__codelineno-0-180" href="#__codelineno-0-180"></a>│       │   ├── 📓 Pytorch Training Pipeline.Ipynb
+<a id="__codelineno-0-181" name="__codelineno-0-181" href="#__codelineno-0-181"></a>│       │   ├── 📓 Pytorch Nn Module.Ipynb
+<a id="__codelineno-0-182" name="__codelineno-0-182" href="#__codelineno-0-182"></a>│       │   ├── 📓 Dataset And Dataloader.Ipynb
+<a id="__codelineno-0-183" name="__codelineno-0-183" href="#__codelineno-0-183"></a>│       │   └── 📓 Buidling Ann Using Pytorch.Ipynb
+<a id="__codelineno-0-184" name="__codelineno-0-184" href="#__codelineno-0-184"></a>│       └── 📁 Projects
+<a id="__codelineno-0-185" name="__codelineno-0-185" href="#__codelineno-0-185"></a>│           ├── 📓 Simple Linear Regression Using Pytorch.Ipynb
+<a id="__codelineno-0-186" name="__codelineno-0-186" href="#__codelineno-0-186"></a>│           └── 📓 Intel Image Classification Using Tinyvgg.Ipynb
+<a id="__codelineno-0-187" name="__codelineno-0-187" href="#__codelineno-0-187"></a>├── 📁 Fundamentals
+<a id="__codelineno-0-188" name="__codelineno-0-188" href="#__codelineno-0-188"></a>│   ├── 📁 Python Basics Learn To Code From Scratch
+<a id="__codelineno-0-189" name="__codelineno-0-189" href="#__codelineno-0-189"></a>│   │   ├── 📁 Introduction To Python
+<a id="__codelineno-0-190" name="__codelineno-0-190" href="#__codelineno-0-190"></a>│   │   │   ├── 📓 Introduction To Python.Ipynb
+<a id="__codelineno-0-191" name="__codelineno-0-191" href="#__codelineno-0-191"></a>│   │   │   └── 📓 Python Comments.Ipynb
+<a id="__codelineno-0-192" name="__codelineno-0-192" href="#__codelineno-0-192"></a>│   │   ├── 📁 Variables And Datatypes
+<a id="__codelineno-0-193" name="__codelineno-0-193" href="#__codelineno-0-193"></a>│   │   │   ├── 📓 Introduction To Variables.Ipynb
+<a id="__codelineno-0-194" name="__codelineno-0-194" href="#__codelineno-0-194"></a>│   │   │   └── 📓 Introduction To Datatypes.Ipynb
+<a id="__codelineno-0-195" name="__codelineno-0-195" href="#__codelineno-0-195"></a>│   │   ├── 📁 Basic Input And Output
+<a id="__codelineno-0-196" name="__codelineno-0-196" href="#__codelineno-0-196"></a>│   │   │   ├── 📓 Print Function.Ipynb
+<a id="__codelineno-0-197" name="__codelineno-0-197" href="#__codelineno-0-197"></a>│   │   │   └── 📓 Taking Input.Ipynb
+<a id="__codelineno-0-198" name="__codelineno-0-198" href="#__codelineno-0-198"></a>│   │   ├── 📁 Operators In Python
+<a id="__codelineno-0-199" name="__codelineno-0-199" href="#__codelineno-0-199"></a>│   │   │   ├── 📓 Introduction To Operators.Ipynb
+<a id="__codelineno-0-200" name="__codelineno-0-200" href="#__codelineno-0-200"></a>│   │   │   ├── 📓 Arithemetic Operators.Ipynb
+<a id="__codelineno-0-201" name="__codelineno-0-201" href="#__codelineno-0-201"></a>│   │   │   ├── 📓 Assignment Operators.Ipynb
+<a id="__codelineno-0-202" name="__codelineno-0-202" href="#__codelineno-0-202"></a>│   │   │   ├── 📓 Comparison Operators.Ipynb
+<a id="__codelineno-0-203" name="__codelineno-0-203" href="#__codelineno-0-203"></a>│   │   │   ├── 📓 Logical Operators.Ipynb
+<a id="__codelineno-0-204" name="__codelineno-0-204" href="#__codelineno-0-204"></a>│   │   │   ├── 📓 Identity Operators.Ipynb
+<a id="__codelineno-0-205" name="__codelineno-0-205" href="#__codelineno-0-205"></a>│   │   │   ├── 📓 Membership Operators.Ipynb
+<a id="__codelineno-0-206" name="__codelineno-0-206" href="#__codelineno-0-206"></a>│   │   │   └── 📓 Bitwise Operators.Ipynb
+<a id="__codelineno-0-207" name="__codelineno-0-207" href="#__codelineno-0-207"></a>│   │   ├── 📁 Conditional Statements And Loop
+<a id="__codelineno-0-208" name="__codelineno-0-208" href="#__codelineno-0-208"></a>│   │   │   ├── 📓 Conditional Statement.Ipynb
+<a id="__codelineno-0-209" name="__codelineno-0-209" href="#__codelineno-0-209"></a>│   │   │   ├── 📓 Loops.Ipynb
+<a id="__codelineno-0-210" name="__codelineno-0-210" href="#__codelineno-0-210"></a>│   │   │   └── 📓 Break Continue Pass Return.Ipynb
+<a id="__codelineno-0-211" name="__codelineno-0-211" href="#__codelineno-0-211"></a>│   │   ├── 📁 Function In Python
+<a id="__codelineno-0-212" name="__codelineno-0-212" href="#__codelineno-0-212"></a>│   │   │   ├── 📓 Function In Python.Ipynb
+<a id="__codelineno-0-213" name="__codelineno-0-213" href="#__codelineno-0-213"></a>│   │   │   ├── 📓 Types Of Functions And Function Overloading.Ipynb
+<a id="__codelineno-0-214" name="__codelineno-0-214" href="#__codelineno-0-214"></a>│   │   │   ├── 📓 Scope Of Variables.Ipynb
+<a id="__codelineno-0-215" name="__codelineno-0-215" href="#__codelineno-0-215"></a>│   │   │   ├── 📓 Concept Of Args And Kwargs.Ipynb
+<a id="__codelineno-0-216" name="__codelineno-0-216" href="#__codelineno-0-216"></a>│   │   │   └── 📓 Python Default Parameters.Ipynb
+<a id="__codelineno-0-217" name="__codelineno-0-217" href="#__codelineno-0-217"></a>│   │   ├── 📁 List In Python
+<a id="__codelineno-0-218" name="__codelineno-0-218" href="#__codelineno-0-218"></a>│   │   │   ├── 📓 Two Dimensional List.Ipynb
+<a id="__codelineno-0-219" name="__codelineno-0-219" href="#__codelineno-0-219"></a>│   │   │   ├── 📓 List Methods.Ipynb
+<a id="__codelineno-0-220" name="__codelineno-0-220" href="#__codelineno-0-220"></a>│   │   │   ├── 📓 List Slicing.Ipynb
+<a id="__codelineno-0-221" name="__codelineno-0-221" href="#__codelineno-0-221"></a>│   │   │   └── 📓 List Comprehension.Ipynb
+<a id="__codelineno-0-222" name="__codelineno-0-222" href="#__codelineno-0-222"></a>│   │   ├── 📁 String
+<a id="__codelineno-0-223" name="__codelineno-0-223" href="#__codelineno-0-223"></a>│   │   │   ├── 📓 Introduction To Strings.Ipynb
+<a id="__codelineno-0-224" name="__codelineno-0-224" href="#__codelineno-0-224"></a>│   │   │   ├── 📓 String Concatenation.Ipynb
+<a id="__codelineno-0-225" name="__codelineno-0-225" href="#__codelineno-0-225"></a>│   │   │   ├── 📓 String Methods.Ipynb
+<a id="__codelineno-0-226" name="__codelineno-0-226" href="#__codelineno-0-226"></a>│   │   │   └── 📓 Iterating On Strings.Ipynb
+<a id="__codelineno-0-227" name="__codelineno-0-227" href="#__codelineno-0-227"></a>│   │   ├── 📁 Object Oriented Programming
+<a id="__codelineno-0-228" name="__codelineno-0-228" href="#__codelineno-0-228"></a>│   │   │   ├── 📓 Introduction To Oop.Ipynb
+<a id="__codelineno-0-229" name="__codelineno-0-229" href="#__codelineno-0-229"></a>│   │   │   ├── 📓 Constructor.Ipynb
+<a id="__codelineno-0-230" name="__codelineno-0-230" href="#__codelineno-0-230"></a>│   │   │   ├── 📓 Types Of Attributes.Ipynb
+<a id="__codelineno-0-231" name="__codelineno-0-231" href="#__codelineno-0-231"></a>│   │   │   ├── 📓 Inheritance.Ipynb
+<a id="__codelineno-0-232" name="__codelineno-0-232" href="#__codelineno-0-232"></a>│   │   │   ├── 📓 Access Modifiers.Ipynb
+<a id="__codelineno-0-233" name="__codelineno-0-233" href="#__codelineno-0-233"></a>│   │   │   ├── 📓 Access Modifiers With Inheritance.Ipynb
+<a id="__codelineno-0-234" name="__codelineno-0-234" href="#__codelineno-0-234"></a>│   │   │   ├── 📓 Types Of Methods.Ipynb
+<a id="__codelineno-0-235" name="__codelineno-0-235" href="#__codelineno-0-235"></a>│   │   │   └── 📓 Polymorphism.Ipynb
+<a id="__codelineno-0-236" name="__codelineno-0-236" href="#__codelineno-0-236"></a>│   │   ├── 📁 Exception Handling
+<a id="__codelineno-0-237" name="__codelineno-0-237" href="#__codelineno-0-237"></a>│   │   │   ├── 📓 Introduction To Exception Handling.Ipynb
+<a id="__codelineno-0-238" name="__codelineno-0-238" href="#__codelineno-0-238"></a>│   │   │   ├── 📓 Try Except Statement.Ipynb
+<a id="__codelineno-0-239" name="__codelineno-0-239" href="#__codelineno-0-239"></a>│   │   │   ├── 📓 Try Except Else Statement.Ipynb
+<a id="__codelineno-0-240" name="__codelineno-0-240" href="#__codelineno-0-240"></a>│   │   │   └── 📓 Finally Statement.Ipynb
+<a id="__codelineno-0-241" name="__codelineno-0-241" href="#__codelineno-0-241"></a>│   │   └── 📁 Class Code
+<a id="__codelineno-0-242" name="__codelineno-0-242" href="#__codelineno-0-242"></a>│   │       ├── 📓 Access Modifiers.Ipynb
+<a id="__codelineno-0-243" name="__codelineno-0-243" href="#__codelineno-0-243"></a>│   │       ├── 📓 Access Modifiers With Inheritence.Ipynb
+<a id="__codelineno-0-244" name="__codelineno-0-244" href="#__codelineno-0-244"></a>│   │       ├── 📓 Arithmetic Operators.Ipynb
+<a id="__codelineno-0-245" name="__codelineno-0-245" href="#__codelineno-0-245"></a>│   │       ├── 📓 Assignment Operators.Ipynb
+<a id="__codelineno-0-246" name="__codelineno-0-246" href="#__codelineno-0-246"></a>│   │       ├── 📓 Bitwise Operators.Ipynb
+<a id="__codelineno-0-247" name="__codelineno-0-247" href="#__codelineno-0-247"></a>│   │       ├── 📓 Break Continue Pass.Ipynb
+<a id="__codelineno-0-248" name="__codelineno-0-248" href="#__codelineno-0-248"></a>│   │       ├── 📓 Comparison Operators.Ipynb
+<a id="__codelineno-0-249" name="__codelineno-0-249" href="#__codelineno-0-249"></a>│   │       ├── 📓 Concept Of Args And Kwargs.Ipynb
+<a id="__codelineno-0-250" name="__codelineno-0-250" href="#__codelineno-0-250"></a>│   │       ├── 📓 Conditional Statement.Ipynb
+<a id="__codelineno-0-251" name="__codelineno-0-251" href="#__codelineno-0-251"></a>│   │       ├── 📓 Constructor.Ipynb
+<a id="__codelineno-0-252" name="__codelineno-0-252" href="#__codelineno-0-252"></a>│   │       ├── 📓 Exercise Solution.Ipynb
+<a id="__codelineno-0-253" name="__codelineno-0-253" href="#__codelineno-0-253"></a>│   │       ├── 📓 Function In Python.Ipynb
+<a id="__codelineno-0-254" name="__codelineno-0-254" href="#__codelineno-0-254"></a>│   │       ├── 📓 Identity Operators.Ipynb
+<a id="__codelineno-0-255" name="__codelineno-0-255" href="#__codelineno-0-255"></a>│   │       ├── 📓 Inheritance.Ipynb
+<a id="__codelineno-0-256" name="__codelineno-0-256" href="#__codelineno-0-256"></a>│   │       ├── 📓 Introduction To Jupyter Interface.Ipynb
+<a id="__codelineno-0-257" name="__codelineno-0-257" href="#__codelineno-0-257"></a>│   │       ├── 📓 Introduction To Markdown.Ipynb
+<a id="__codelineno-0-258" name="__codelineno-0-258" href="#__codelineno-0-258"></a>│   │       ├── 📓 Introduction To Datatypes.Ipynb
+<a id="__codelineno-0-259" name="__codelineno-0-259" href="#__codelineno-0-259"></a>│   │       ├── 📓 Introduction To Library And Module.Ipynb
+<a id="__codelineno-0-260" name="__codelineno-0-260" href="#__codelineno-0-260"></a>│   │       ├── 📓 Introduction To Oop.Ipynb
+<a id="__codelineno-0-261" name="__codelineno-0-261" href="#__codelineno-0-261"></a>│   │       ├── 📓 Introduction To Strings.Ipynb
+<a id="__codelineno-0-262" name="__codelineno-0-262" href="#__codelineno-0-262"></a>│   │       ├── 📓 Introduction To Variables.Ipynb
+<a id="__codelineno-0-263" name="__codelineno-0-263" href="#__codelineno-0-263"></a>│   │       ├── 📓 Iterating On Strings.Ipynb
+<a id="__codelineno-0-264" name="__codelineno-0-264" href="#__codelineno-0-264"></a>│   │       ├── 📓 List Comprehension.Ipynb
+<a id="__codelineno-0-265" name="__codelineno-0-265" href="#__codelineno-0-265"></a>│   │       ├── 📓 List Methods.Ipynb
+<a id="__codelineno-0-266" name="__codelineno-0-266" href="#__codelineno-0-266"></a>│   │       ├── 📓 List Slicing.Ipynb
+<a id="__codelineno-0-267" name="__codelineno-0-267" href="#__codelineno-0-267"></a>│   │       ├── 📓 Logical Operators.Ipynb
+<a id="__codelineno-0-268" name="__codelineno-0-268" href="#__codelineno-0-268"></a>│   │       ├── 📓 Loops.Ipynb
+<a id="__codelineno-0-269" name="__codelineno-0-269" href="#__codelineno-0-269"></a>│   │       ├── 📓 Membership Operators.Ipynb
+<a id="__codelineno-0-270" name="__codelineno-0-270" href="#__codelineno-0-270"></a>│   │       ├── 📓 Polymorphism.Ipynb
+<a id="__codelineno-0-271" name="__codelineno-0-271" href="#__codelineno-0-271"></a>│   │       ├── 📓 Python Default Parameters.Ipynb
+<a id="__codelineno-0-272" name="__codelineno-0-272" href="#__codelineno-0-272"></a>│   │       ├── 📓 Python Comments.Ipynb
+<a id="__codelineno-0-273" name="__codelineno-0-273" href="#__codelineno-0-273"></a>│   │       ├── 📓 Python Input Function.Ipynb
+<a id="__codelineno-0-274" name="__codelineno-0-274" href="#__codelineno-0-274"></a>│   │       ├── 📓 Python Print Function.Ipynb
+<a id="__codelineno-0-275" name="__codelineno-0-275" href="#__codelineno-0-275"></a>│   │       ├── 📓 Scope Of Variables.Ipynb
+<a id="__codelineno-0-276" name="__codelineno-0-276" href="#__codelineno-0-276"></a>│   │       ├── 📓 String Concatenation.Ipynb
+<a id="__codelineno-0-277" name="__codelineno-0-277" href="#__codelineno-0-277"></a>│   │       ├── 📓 String Methods.Ipynb
+<a id="__codelineno-0-278" name="__codelineno-0-278" href="#__codelineno-0-278"></a>│   │       ├── 📓 Two Dimensional List.Ipynb
+<a id="__codelineno-0-279" name="__codelineno-0-279" href="#__codelineno-0-279"></a>│   │       ├── 📓 Types Of Attributes.Ipynb
+<a id="__codelineno-0-280" name="__codelineno-0-280" href="#__codelineno-0-280"></a>│   │       ├── 📓 Types Of Function.Ipynb
+<a id="__codelineno-0-281" name="__codelineno-0-281" href="#__codelineno-0-281"></a>│   │       ├── 📓 Types Of Methods.Ipynb
+<a id="__codelineno-0-282" name="__codelineno-0-282" href="#__codelineno-0-282"></a>│   │       ├── 📓 Untitled.Ipynb
+<a id="__codelineno-0-283" name="__codelineno-0-283" href="#__codelineno-0-283"></a>│   │       └── 📄 Test.Py
+<a id="__codelineno-0-284" name="__codelineno-0-284" href="#__codelineno-0-284"></a>│   └── 📁 Python For Beginners To Pros
+<a id="__codelineno-0-285" name="__codelineno-0-285" href="#__codelineno-0-285"></a>│       ├── 📁 Exercises
+<a id="__codelineno-0-286" name="__codelineno-0-286" href="#__codelineno-0-286"></a>│       │   ├── 📓 Python Exercise (11 20).Ipynb
+<a id="__codelineno-0-287" name="__codelineno-0-287" href="#__codelineno-0-287"></a>│       │   ├── 📓 Python Exercise (21 30).Ipynb
+<a id="__codelineno-0-288" name="__codelineno-0-288" href="#__codelineno-0-288"></a>│       │   ├── 📓 Python Exercise (31 40).Ipynb
+<a id="__codelineno-0-289" name="__codelineno-0-289" href="#__codelineno-0-289"></a>│       │   ├── 📓 Python Exercise (41 50).Ipynb
+<a id="__codelineno-0-290" name="__codelineno-0-290" href="#__codelineno-0-290"></a>│       │   ├── 📓 Python Exercise (51 60).Ipynb
+<a id="__codelineno-0-291" name="__codelineno-0-291" href="#__codelineno-0-291"></a>│       │   ├── 📓 Python Exercise (61 70).Ipynb
+<a id="__codelineno-0-292" name="__codelineno-0-292" href="#__codelineno-0-292"></a>│       │   ├── 📓 Python Exercise (71 80).Ipynb
+<a id="__codelineno-0-293" name="__codelineno-0-293" href="#__codelineno-0-293"></a>│       │   ├── 📓 Python Exercise (81 90).Ipynb
+<a id="__codelineno-0-294" name="__codelineno-0-294" href="#__codelineno-0-294"></a>│       │   ├── 📓 Python Exercise (91 100).Ipynb
+<a id="__codelineno-0-295" name="__codelineno-0-295" href="#__codelineno-0-295"></a>│       │   └── 📓 Python Exercise (1 10).Ipynb
+<a id="__codelineno-0-296" name="__codelineno-0-296" href="#__codelineno-0-296"></a>│       └── 📁 Notebooks
+<a id="__codelineno-0-297" name="__codelineno-0-297" href="#__codelineno-0-297"></a>│           ├── 📓 Python Strings.Ipynb
+<a id="__codelineno-0-298" name="__codelineno-0-298" href="#__codelineno-0-298"></a>│           ├── 📓 Python Strings Solutions.Ipynb
+<a id="__codelineno-0-299" name="__codelineno-0-299" href="#__codelineno-0-299"></a>│           ├── 📓 Time Complexity.Ipynb
+<a id="__codelineno-0-300" name="__codelineno-0-300" href="#__codelineno-0-300"></a>│           ├── 📓 Functions In Python.Ipynb
+<a id="__codelineno-0-301" name="__codelineno-0-301" href="#__codelineno-0-301"></a>│           ├── 📓 Object Oriented Programming 1.Ipynb
+<a id="__codelineno-0-302" name="__codelineno-0-302" href="#__codelineno-0-302"></a>│           ├── 📓 Object Oriented Programming 2.Ipynb
+<a id="__codelineno-0-303" name="__codelineno-0-303" href="#__codelineno-0-303"></a>│           ├── 📓 Object Oriented Programming 3.Ipynb
+<a id="__codelineno-0-304" name="__codelineno-0-304" href="#__codelineno-0-304"></a>│           └── 📓 File Handling In Python.Ipynb
+<a id="__codelineno-0-305" name="__codelineno-0-305" href="#__codelineno-0-305"></a>├── 📁 Geospatial
+<a id="__codelineno-0-306" name="__codelineno-0-306" href="#__codelineno-0-306"></a>│   ├── 📁 Geospatial Data Science With Python
+<a id="__codelineno-0-307" name="__codelineno-0-307" href="#__codelineno-0-307"></a>│   │   ├── 📁 Working With Projections
+<a id="__codelineno-0-308" name="__codelineno-0-308" href="#__codelineno-0-308"></a>│   │   │   └── 📓 Working With Gcs And Pcs.Ipynb
+<a id="__codelineno-0-309" name="__codelineno-0-309" href="#__codelineno-0-309"></a>│   │   ├── 📁 Exploring Geospatial Packages
+<a id="__codelineno-0-310" name="__codelineno-0-310" href="#__codelineno-0-310"></a>│   │   │   ├── 📓 Geopandas.Ipynb
+<a id="__codelineno-0-311" name="__codelineno-0-311" href="#__codelineno-0-311"></a>│   │   │   ├── 📓 Spatial Data Structures.Ipynb
+<a id="__codelineno-0-312" name="__codelineno-0-312" href="#__codelineno-0-312"></a>│   │   │   ├── 📓 Spatial Data Manipulation.Ipynb
+<a id="__codelineno-0-313" name="__codelineno-0-313" href="#__codelineno-0-313"></a>│   │   │   ├── 📓 Geocoding.Ipynb
+<a id="__codelineno-0-314" name="__codelineno-0-314" href="#__codelineno-0-314"></a>│   │   │   ├── 📓 Shapely.Ipynb
+<a id="__codelineno-0-315" name="__codelineno-0-315" href="#__codelineno-0-315"></a>│   │   │   ├── 📓 Shapely Properties And Methods.Ipynb
+<a id="__codelineno-0-316" name="__codelineno-0-316" href="#__codelineno-0-316"></a>│   │   │   ├── 📓 Rasterio.Ipynb
+<a id="__codelineno-0-317" name="__codelineno-0-317" href="#__codelineno-0-317"></a>│   │   │   └── 📓 Ipyleaflet.Ipynb
+<a id="__codelineno-0-318" name="__codelineno-0-318" href="#__codelineno-0-318"></a>│   │   ├── 📁 Exploratory Spatial Data Analysis
+<a id="__codelineno-0-319" name="__codelineno-0-319" href="#__codelineno-0-319"></a>│   │   │   ├── 📓 Exploratory Data Visualization.Ipynb
+<a id="__codelineno-0-320" name="__codelineno-0-320" href="#__codelineno-0-320"></a>│   │   │   └── 📓 Creating Choropleth Map From Points.Ipynb
+<a id="__codelineno-0-321" name="__codelineno-0-321" href="#__codelineno-0-321"></a>│   │   └── 📁 Datasets
+<a id="__codelineno-0-322" name="__codelineno-0-322" href="#__codelineno-0-322"></a>│   │       ├── 📁 Csvs
+<a id="__codelineno-0-323" name="__codelineno-0-323" href="#__codelineno-0-323"></a>│   │       └── 📁 Shapefiles
+<a id="__codelineno-0-324" name="__codelineno-0-324" href="#__codelineno-0-324"></a>│   ├── 📁 Image Analysis In Remote Sensing With Python
+<a id="__codelineno-0-325" name="__codelineno-0-325" href="#__codelineno-0-325"></a>│   │   ├── 📁 Images Arrays Matrices
+<a id="__codelineno-0-326" name="__codelineno-0-326" href="#__codelineno-0-326"></a>│   │   │   ├── 📓 Algebra Of Vectors And Matrices.Ipynb
+<a id="__codelineno-0-327" name="__codelineno-0-327" href="#__codelineno-0-327"></a>│   │   │   └── 📓 Square Matrices.Ipynb
+<a id="__codelineno-0-328" name="__codelineno-0-328" href="#__codelineno-0-328"></a>│   │   ├── 📓 Reading And Displaying Image Band.Ipynb
+<a id="__codelineno-0-329" name="__codelineno-0-329" href="#__codelineno-0-329"></a>│   │   ├── 📓 Integration Of Gee With Numpy.Ipynb
+<a id="__codelineno-0-330" name="__codelineno-0-330" href="#__codelineno-0-330"></a>│   │   ├── 📁 Machine Learning With Scikit Learn
+<a id="__codelineno-0-331" name="__codelineno-0-331" href="#__codelineno-0-331"></a>│   │   │   ├── 📓 Download Landsat 8 Data.Ipynb
+<a id="__codelineno-0-332" name="__codelineno-0-332" href="#__codelineno-0-332"></a>│   │   │   └── 📓 Satellite Image Classification Using Scikit Learn.Ipynb
+<a id="__codelineno-0-333" name="__codelineno-0-333" href="#__codelineno-0-333"></a>│   │   └── 📓 Untitled.Ipynb
+<a id="__codelineno-0-334" name="__codelineno-0-334" href="#__codelineno-0-334"></a>│   ├── 📁 Mastering Machine Learning And Gee For Earth Science
+<a id="__codelineno-0-335" name="__codelineno-0-335" href="#__codelineno-0-335"></a>│   │   ├── 📁 Geemap
+<a id="__codelineno-0-336" name="__codelineno-0-336" href="#__codelineno-0-336"></a>│   │   │   ├── 📓 Intro To Geemap.Ipynb
+<a id="__codelineno-0-337" name="__codelineno-0-337" href="#__codelineno-0-337"></a>│   │   │   ├── 📓 Cloud Masking.Ipynb
+<a id="__codelineno-0-338" name="__codelineno-0-338" href="#__codelineno-0-338"></a>│   │   │   ├── 📓 Band Arithmetic.Ipynb
+<a id="__codelineno-0-339" name="__codelineno-0-339" href="#__codelineno-0-339"></a>│   │   │   └── 📓 Download Image And Image Tiles.Ipynb
+<a id="__codelineno-0-340" name="__codelineno-0-340" href="#__codelineno-0-340"></a>│   │   ├── 📁 Data Gathering
+<a id="__codelineno-0-341" name="__codelineno-0-341" href="#__codelineno-0-341"></a>│   │   │   ├── 📓 Working With Csv Files.Ipynb
+<a id="__codelineno-0-342" name="__codelineno-0-342" href="#__codelineno-0-342"></a>│   │   │   └── 📓 Understanding The Data.Ipynb
+<a id="__codelineno-0-343" name="__codelineno-0-343" href="#__codelineno-0-343"></a>│   │   ├── 📁 Exploratory Data Analysis
+<a id="__codelineno-0-344" name="__codelineno-0-344" href="#__codelineno-0-344"></a>│   │   │   ├── 📓 Eda Using Univariate Analysis.Ipynb
+<a id="__codelineno-0-345" name="__codelineno-0-345" href="#__codelineno-0-345"></a>│   │   │   └── 📓 Eda Using Bivariate And Multivariate Analysis.Ipynb
+<a id="__codelineno-0-346" name="__codelineno-0-346" href="#__codelineno-0-346"></a>│   │   ├── 📁 Feature Engineering
+<a id="__codelineno-0-347" name="__codelineno-0-347" href="#__codelineno-0-347"></a>│   │   │   ├── 📓 Standardization.Ipynb
+<a id="__codelineno-0-348" name="__codelineno-0-348" href="#__codelineno-0-348"></a>│   │   │   ├── 📓 Normalization.Ipynb
+<a id="__codelineno-0-349" name="__codelineno-0-349" href="#__codelineno-0-349"></a>│   │   │   ├── 📓 Encoding Categorical Data.Ipynb
+<a id="__codelineno-0-350" name="__codelineno-0-350" href="#__codelineno-0-350"></a>│   │   │   ├── 📓 One Hot Encoding.Ipynb
+<a id="__codelineno-0-351" name="__codelineno-0-351" href="#__codelineno-0-351"></a>│   │   │   └── 📓 Column Transformer.Ipynb
+<a id="__codelineno-0-352" name="__codelineno-0-352" href="#__codelineno-0-352"></a>│   │   └── 📁 Machine Learning Algorithms
+<a id="__codelineno-0-353" name="__codelineno-0-353" href="#__codelineno-0-353"></a>│   │       ├── 📓 Simple Linear Regression.Ipynb
+<a id="__codelineno-0-354" name="__codelineno-0-354" href="#__codelineno-0-354"></a>│   │       ├── 📓 Regression Metrics.Ipynb
+<a id="__codelineno-0-355" name="__codelineno-0-355" href="#__codelineno-0-355"></a>│   │       ├── 📓 Multiple Linear Regression.Ipynb
+<a id="__codelineno-0-356" name="__codelineno-0-356" href="#__codelineno-0-356"></a>│   │       └── 📓 Perceptron Trick.Ipynb
+<a id="__codelineno-0-357" name="__codelineno-0-357" href="#__codelineno-0-357"></a>│   ├── 📁 Climate Data Downscaling
+<a id="__codelineno-0-358" name="__codelineno-0-358" href="#__codelineno-0-358"></a>│   │   ├── 📄 Config.Py
+<a id="__codelineno-0-359" name="__codelineno-0-359" href="#__codelineno-0-359"></a>│   │   ├── 📄 Dataset.Py
+<a id="__codelineno-0-360" name="__codelineno-0-360" href="#__codelineno-0-360"></a>│   │   ├── 📄 Loss.Py
+<a id="__codelineno-0-361" name="__codelineno-0-361" href="#__codelineno-0-361"></a>│   │   ├── 📄 Model.Py
+<a id="__codelineno-0-362" name="__codelineno-0-362" href="#__codelineno-0-362"></a>│   │   ├── 📓 Train.Ipynb
+<a id="__codelineno-0-363" name="__codelineno-0-363" href="#__codelineno-0-363"></a>│   │   ├── 📄 Train.Md
+<a id="__codelineno-0-364" name="__codelineno-0-364" href="#__codelineno-0-364"></a>│   │   ├── 📄 Train.Py
+<a id="__codelineno-0-365" name="__codelineno-0-365" href="#__codelineno-0-365"></a>│   │   └── 📄 Utils.Py
+<a id="__codelineno-0-366" name="__codelineno-0-366" href="#__codelineno-0-366"></a>│   └── 📁 Geonext Handbook
+<a id="__codelineno-0-367" name="__codelineno-0-367" href="#__codelineno-0-367"></a>│       ├── 📓 Conduct.Ipynb
+<a id="__codelineno-0-368" name="__codelineno-0-368" href="#__codelineno-0-368"></a>│       ├── 📄 Conduct.Md
+<a id="__codelineno-0-369" name="__codelineno-0-369" href="#__codelineno-0-369"></a>│       ├── 📓 Contributing.Ipynb
+<a id="__codelineno-0-370" name="__codelineno-0-370" href="#__codelineno-0-370"></a>│       ├── 📄 Contributing.Md
+<a id="__codelineno-0-371" name="__codelineno-0-371" href="#__codelineno-0-371"></a>│       ├── 📓 Readme.Ipynb
+<a id="__codelineno-0-372" name="__codelineno-0-372" href="#__codelineno-0-372"></a>│       ├── 📄 Readme.Md
+<a id="__codelineno-0-373" name="__codelineno-0-373" href="#__codelineno-0-373"></a>│       └── 📁 Book
+<a id="__codelineno-0-374" name="__codelineno-0-374" href="#__codelineno-0-374"></a>│           ├── 📓 Bibliography.Ipynb
+<a id="__codelineno-0-375" name="__codelineno-0-375" href="#__codelineno-0-375"></a>│           ├── 📄 Bibliography.Md
+<a id="__codelineno-0-376" name="__codelineno-0-376" href="#__codelineno-0-376"></a>│           ├── 📓 Maize Leaf Disease Classification Using Vit.Ipynb
+<a id="__codelineno-0-377" name="__codelineno-0-377" href="#__codelineno-0-377"></a>│           ├── 📓 Markdown.Ipynb
+<a id="__codelineno-0-378" name="__codelineno-0-378" href="#__codelineno-0-378"></a>│           ├── 📄 Markdown.Md
+<a id="__codelineno-0-379" name="__codelineno-0-379" href="#__codelineno-0-379"></a>│           └── 📓 Notebooks.Ipynb
+<a id="__codelineno-0-380" name="__codelineno-0-380" href="#__codelineno-0-380"></a>└── 📁 Projects
+<a id="__codelineno-0-381" name="__codelineno-0-381" href="#__codelineno-0-381"></a>    ├── 📁 Crop Yield Forecasting Germany
+<a id="__codelineno-0-382" name="__codelineno-0-382" href="#__codelineno-0-382"></a>    │   ├── 📓 Yield Data Preparation.Ipynb
+<a id="__codelineno-0-383" name="__codelineno-0-383" href="#__codelineno-0-383"></a>    │   ├── 📄 Yield Data Preparation.Md
+<a id="__codelineno-0-384" name="__codelineno-0-384" href="#__codelineno-0-384"></a>    │   ├── 📓 Data Preparation For Pbms.Ipynb
+<a id="__codelineno-0-385" name="__codelineno-0-385" href="#__codelineno-0-385"></a>    │   ├── 📄 Data Preparation For Pbms.Md
+<a id="__codelineno-0-386" name="__codelineno-0-386" href="#__codelineno-0-386"></a>    │   ├── 📓 Data Preparation For Pbms.Ipynb
+<a id="__codelineno-0-387" name="__codelineno-0-387" href="#__codelineno-0-387"></a>    │   └── 📄 Data Preparation For Pbms.Md
+<a id="__codelineno-0-388" name="__codelineno-0-388" href="#__codelineno-0-388"></a>    ├── 📁 Flood Susceptibility Zonation Of Malda District
+<a id="__codelineno-0-389" name="__codelineno-0-389" href="#__codelineno-0-389"></a>    │   ├── 📁 Gee Codes
+<a id="__codelineno-0-390" name="__codelineno-0-390" href="#__codelineno-0-390"></a>    │   │   ├── 📄 Flood Zone Detection Using Sar.Js
+<a id="__codelineno-0-391" name="__codelineno-0-391" href="#__codelineno-0-391"></a>    │   │   ├── 📄 Flooded And Non Flooded Point Generation.Js
+<a id="__codelineno-0-392" name="__codelineno-0-392" href="#__codelineno-0-392"></a>    │   │   └── 📄 Training And Testing Data Preparation.Js
+<a id="__codelineno-0-393" name="__codelineno-0-393" href="#__codelineno-0-393"></a>    │   ├── 📁 Model
+<a id="__codelineno-0-394" name="__codelineno-0-394" href="#__codelineno-0-394"></a>    │   └── 📁 Notebooks
+<a id="__codelineno-0-395" name="__codelineno-0-395" href="#__codelineno-0-395"></a>    │       ├── 📓 Classify The Image.Ipynb
+<a id="__codelineno-0-396" name="__codelineno-0-396" href="#__codelineno-0-396"></a>    │       ├── 📓 Assessment Of Validation Metrics.Ipynb
+<a id="__codelineno-0-397" name="__codelineno-0-397" href="#__codelineno-0-397"></a>    │       ├── 📓 Training And Testing Data Preparation.Ipynb
+<a id="__codelineno-0-398" name="__codelineno-0-398" href="#__codelineno-0-398"></a>    │       ├── 📓 Application Of Random Forest For Flood Susceptibility Zonation.Ipynb
+<a id="__codelineno-0-399" name="__codelineno-0-399" href="#__codelineno-0-399"></a>    │       ├── 📓 Application Of Xgboost For Flood Susceptibility Zonation.Ipynb
+<a id="__codelineno-0-400" name="__codelineno-0-400" href="#__codelineno-0-400"></a>    │       ├── 📓 Application Of Logistic Regression For Flood Susceptibility Zonation.Ipynb
+<a id="__codelineno-0-401" name="__codelineno-0-401" href="#__codelineno-0-401"></a>    │       ├── 📓 Application Of Svm For Flood Susceptibility Zonation.Ipynb
+<a id="__codelineno-0-402" name="__codelineno-0-402" href="#__codelineno-0-402"></a>    │       └── 📓 Convert The Image Into Csv.Ipynb
+<a id="__codelineno-0-403" name="__codelineno-0-403" href="#__codelineno-0-403"></a>    ├── 📁 Indi Res
+<a id="__codelineno-0-404" name="__codelineno-0-404" href="#__codelineno-0-404"></a>    │   ├── 📁 Notebooks
+<a id="__codelineno-0-405" name="__codelineno-0-405" href="#__codelineno-0-405"></a>    │   │   ├── 📁 Exploration
+<a id="__codelineno-0-406" name="__codelineno-0-406" href="#__codelineno-0-406"></a>    │   │   │   ├── 📓 Experimenting With Sam3.Ipynb
+<a id="__codelineno-0-407" name="__codelineno-0-407" href="#__codelineno-0-407"></a>    │   │   │   └── 📓 Data Extraction From Stac.Ipynb
+<a id="__codelineno-0-408" name="__codelineno-0-408" href="#__codelineno-0-408"></a>    │   │   ├── 📁 Preprocessing
+<a id="__codelineno-0-409" name="__codelineno-0-409" href="#__codelineno-0-409"></a>    │   │   │   └── 📓 Extract Indian Reservoirs.Ipynb
+<a id="__codelineno-0-410" name="__codelineno-0-410" href="#__codelineno-0-410"></a>    │   │   └── 📁 Modeling
+<a id="__codelineno-0-411" name="__codelineno-0-411" href="#__codelineno-0-411"></a>    │   │       └── 📓 Ganfilling.Ipynb
+<a id="__codelineno-0-412" name="__codelineno-0-412" href="#__codelineno-0-412"></a>    │   └── 📁 Src
+<a id="__codelineno-0-413" name="__codelineno-0-413" href="#__codelineno-0-413"></a>    │       └── 📁 Indi Res
+<a id="__codelineno-0-414" name="__codelineno-0-414" href="#__codelineno-0-414"></a>    │           └── 📁 Models
+<a id="__codelineno-0-415" name="__codelineno-0-415" href="#__codelineno-0-415"></a>    │               ├── 📄 Convlstm.Py
+<a id="__codelineno-0-416" name="__codelineno-0-416" href="#__codelineno-0-416"></a>    │               ├── 📄 Discriminator.Py
+<a id="__codelineno-0-417" name="__codelineno-0-417" href="#__codelineno-0-417"></a>    │               └── 📄 Generator.Py
+<a id="__codelineno-0-418" name="__codelineno-0-418" href="#__codelineno-0-418"></a>    └── 📁 Pyimgproc Image Processing Using Python
+<a id="__codelineno-0-419" name="__codelineno-0-419" href="#__codelineno-0-419"></a>        ├── 📓 Image Processing Using Pillow In Python.Ipynb
+<a id="__codelineno-0-420" name="__codelineno-0-420" href="#__codelineno-0-420"></a>        ├── 📓 Image Processing Using Scipy.Ipynb
+<a id="__codelineno-0-421" name="__codelineno-0-421" href="#__codelineno-0-421"></a>        ├── 📓 Introduction To Opencv In Python.Ipynb
+<a id="__codelineno-0-422" name="__codelineno-0-422" href="#__codelineno-0-422"></a>        └── 📓 Waterbodies Extraction Using Entropy And Otsu&#39;S Threshold.Ipynb
 </code></pre></div>
 <h2 id="getting-started">🚀 Getting Started</h2>
 <p>Use the navigation tabs above to dive into specific domains:
