@@ -1,3 +1,5 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pulakeshpradhan/python/blob/main/docs/data-science/Data-Science-Bootcamp-with-Python/04_Introduction_to_Pandas/07_Group_By_Method.ipynb)
+
 # Group By (Split, Apply, Combine)
 One of the most powerful features of Pandas is its ability to group data and perform aggregations on the grouped data. The groupby() method is used to group data in Pandas based on one or more columns.
 

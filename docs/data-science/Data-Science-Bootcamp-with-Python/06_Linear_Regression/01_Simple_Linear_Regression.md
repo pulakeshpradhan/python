@@ -1,3 +1,5 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pulakeshpradhan/python/blob/main/docs/data-science/Data-Science-Bootcamp-with-Python/06_Linear_Regression/01_Simple_Linear_Regression.ipynb)
+
 # **Simple Linear Regression**
 #### **Description:** 
 Simple linear regression is a statistical technique used to establish a relationship between two variables - one independent and one dependent. The purpose of this technique is to determine whether there is a linear relationship between the two variables, and if so, to develop a mathematical model that can be used to predict the value of the dependent variable based on the value of the independent variable.

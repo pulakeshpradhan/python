@@ -1,3 +1,5 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pulakeshpradhan/python/blob/main/docs/data-science/Data-Science-Bootcamp-with-Python/04_Introduction_to_Pandas/02_Pandas_Dataframe.ipynb)
+
 #  Pandas Dataframe
 Pandas DataFrame is a two-dimensional labeled data structure, where the columns can have different data types, such as integers, floats, and strings. It is one of the most popular data structures used in data analysis and machine learning tasks.
 

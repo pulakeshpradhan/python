@@ -1,3 +1,5 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pulakeshpradhan/python/blob/main/docs/data-science/Data-Science-Bootcamp-with-Python/06_Linear_Regression/Simple_Logistic_Regression.ipynb)
+
 # **Simple Logistic Regression (Binary Classification)**
 #### **Description:**
 Logistic regression is a statistical technique used to analyze the relationship between a dependent variable and one or more independent variables. In binary classification problems, the dependent variable is dichotomous, meaning it has only two possible outcomes. For example, whether a customer will purchase a product or not, whether a person has a certain disease or not, or whether an email is spam or not.

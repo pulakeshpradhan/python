@@ -1,3 +1,5 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pulakeshpradhan/python/blob/main/docs/data-science/Data-Science-Bootcamp-with-Python/03_Introduction_to_NumPy/05_Advantages_of_Using_NumPy.ipynb)
+
 # Advantages of Using NumPy
 NumPy arrays are more memory-efficient than Python lists because they are homogeneous, which means that all elements in the array are of the same data type. This allows NumPy to store the data more efficiently in memory.
 

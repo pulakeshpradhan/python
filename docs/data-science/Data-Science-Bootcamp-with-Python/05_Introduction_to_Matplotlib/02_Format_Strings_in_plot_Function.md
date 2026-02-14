@@ -1,3 +1,5 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pulakeshpradhan/python/blob/main/docs/data-science/Data-Science-Bootcamp-with-Python/05_Introduction_to_Matplotlib/02_Format_Strings_in_plot_Function.ipynb)
+
 # Format Strings in plot() Function
 In Matplotlib, you can customize the appearance of data points in a plot using format strings in the plot() function. A format string is a shorthand way of specifying the color, marker, and line style of the plot.
 

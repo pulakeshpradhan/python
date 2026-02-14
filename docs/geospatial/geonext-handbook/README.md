@@ -1,3 +1,5 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pulakeshpradhan/python/blob/main/docs/geospatial/geonext-handbook/README.ipynb)
+
 # GeoNext Handbook
 
 A practical guide to geospatial tips, tricks, and workflows for remote sensing, GIS, and AI-powered Earth data analysis.

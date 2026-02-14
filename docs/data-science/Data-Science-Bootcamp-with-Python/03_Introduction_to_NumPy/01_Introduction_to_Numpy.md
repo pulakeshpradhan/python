@@ -1,3 +1,5 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pulakeshpradhan/python/blob/main/docs/data-science/Data-Science-Bootcamp-with-Python/03_Introduction_to_NumPy/01_Introduction_to_Numpy.ipynb)
+
 # Introduction to NumPy 
 
 NumPy is a library for the Python programming language that provides support for arrays, matrices, and other numerical operations. It is an essential library for scientific computing in Python. In this module, you will learn about the basics of NumPy and how to use it for numerical computations.

@@ -1,57 +1,35 @@
 import os
 
-def generate_markdown_tree(dir_path, level=0):
-    tree_lines = []
-    items = sorted(os.listdir(dir_path))
-    
-    # Filter items
-    items = [i for i in items if not i.startswith('.') and i != 'index.md' and i != 'site' and i != '__pycache__']
-    
-    for item in items:
-        item_path = os.path.join(dir_path, item)
-        indent = "    " * level
-        
-        # Clean up name
-        clean_name = item.replace('_', ' ').replace('-', ' ').title()
-        import re
-        clean_name = re.sub(r'^\d+\s+', '', clean_name)
-        
-        if os.path.isdir(item_path):
-            tree_lines.append(f"{indent}- **{clean_name}**")
-            tree_lines.extend(generate_markdown_tree(item_path, level + 1))
-        elif item.endswith('.md'):
-            # Only include markdown files
-            name = os.path.splitext(clean_name)[0]
-            rel_link = os.path.relpath(item_path, os.path.dirname(os.path.abspath(__file__))).replace('\\', '/')
-            # Rel link from docs/index.md
-            rel_link_from_index = os.path.relpath(item_path, r'f:\OpenGit\python\docs').replace('\\', '/')
-            tree_lines.append(f"{indent}- [{name}]({rel_link_from_index})")
-            
-    return tree_lines
-
-docs_dir = r'f:\OpenGit\python\docs'
-tree = generate_markdown_tree(docs_dir)
-
-content = [
-    "# Geo Coding Muscle with Python",
-    "",
-    "Welcome to the comprehensive repository of Python learning resources, projects, and geospatial analysis guides.",
-    "",
-    "## 📚 Repository Structure",
-    "",
-    "Explore the various sections of this documentation through the interactive tree below:",
-    "",
-    "```text",
-]
-
-# Simple text tree for professional look
 def generate_text_tree(dir_path, prefix=""):
     lines = []
     items = sorted(os.listdir(dir_path))
-    items = [i for i in items if not i.startswith('.') and i != 'index.md' and i != 'site' and i != '__pycache__']
     
-    for i, item in enumerate(items):
-        is_last = (i == len(items) - 1)
+    # Filter items: hide system files, _files folders, datasets (csv, xlsx), and images
+    exclude_dirs = {'.github', '.git', 'site', '__pycache__', '.ipynb_checkpoints'}
+    exclude_exts = {'.csv', '.xlsx', '.png', '.jpg', '.jpeg', '.ico', '.zip', '.dbf', '.shp', '.shx', '.prj', '.cpg', '.geojson', '.pkl'}
+    
+    # Actually, the user might want some files but not others. 
+    # Let's keep .md, .py, .js, .ipynb and directories.
+    
+    filtered_items = []
+    for item in items:
+        if item.startswith('.') or item in exclude_dirs:
+            continue
+        if item.endswith('_files'):
+            continue
+        if item == 'index.md':
+            continue
+            
+        item_path = os.path.join(dir_path, item)
+        if os.path.isfile(item_path):
+            ext = os.path.splitext(item)[1].lower()
+            if ext not in {'.md', '.py', '.js', '.ipynb', '.pdf'}:
+                continue
+        
+        filtered_items.append(item)
+    
+    for i, item in enumerate(filtered_items):
+        is_last = (i == len(filtered_items) - 1)
         connector = "└── " if is_last else "├── "
         
         item_path = os.path.join(dir_path, item)
@@ -59,13 +37,31 @@ def generate_text_tree(dir_path, prefix=""):
         import re
         clean_name = re.sub(r'^\d+\s+', '', clean_name)
         
-        lines.append(f"{prefix}{connector}{clean_name}")
+        # Add icon based on type
+        icon = "📁" if os.path.isdir(item_path) else "📄"
+        if item.endswith('.pdf'): icon = "📕"
+        if item.endswith('.ipynb'): icon = "📓"
+        
+        lines.append(f"{prefix}{connector}{icon} {clean_name}")
         
         if os.path.isdir(item_path):
             new_prefix = prefix + ("    " if is_last else "│   ")
             lines.extend(generate_text_tree(item_path, new_prefix))
             
     return lines
+
+docs_dir = r'f:\OpenGit\python\docs'
+content = [
+    "# Geo Coding Muscle with Python",
+    "",
+    "Welcome to the comprehensive repository of Python learning resources, projects, and geospatial analysis guides.",
+    "",
+    "## 📚 Repository Structure",
+    "",
+    "Explore the various sections of this documentation through the interactive tree below. Note that for most tutorials, an **Open in Colab** button is available at the top of the page.",
+    "",
+    "```text",
+]
 
 content.extend(generate_text_tree(docs_dir))
 content.append("```")
@@ -81,4 +77,4 @@ content.append("- **Projects**: Real-world applications and forecasting models."
 with open(os.path.join(docs_dir, 'index.md'), 'w', encoding='utf-8') as f:
     f.write('\n'.join(content))
 
-print("index.md updated with professional tree structure!")
+print("index.md updated with refined tree structure!")

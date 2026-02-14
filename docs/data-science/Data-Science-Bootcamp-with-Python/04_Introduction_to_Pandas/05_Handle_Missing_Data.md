@@ -1,3 +1,5 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pulakeshpradhan/python/blob/main/docs/data-science/Data-Science-Bootcamp-with-Python/04_Introduction_to_Pandas/05_Handle_Missing_Data.ipynb)
+
 # Handle Missing Data
 Handling missing data is an important part of data analysis, and Pandas provides a number of methods for dealing with missing values. In this notebook, we will cover some common techniques for handling missing data using Pandas.
 

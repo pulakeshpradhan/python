@@ -1,3 +1,5 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pulakeshpradhan/python/blob/main/docs/data-science/Data-Science-Bootcamp-with-Python/05_Introduction_to_Matplotlib/01_Introduction_to_Matplotlib.ipynb)
+
 # Introduction to Matplotlib
 Matplotlib is a widely used Python library for data visualization. It provides a variety of functions for creating different types of graphs and charts. Matplotlib can be used to create simple line plots, scatter plots, histograms, bar charts, 3D plots, and more. In this module, we will cover the basics of Matplotlib and how to use it for data visualization.
 

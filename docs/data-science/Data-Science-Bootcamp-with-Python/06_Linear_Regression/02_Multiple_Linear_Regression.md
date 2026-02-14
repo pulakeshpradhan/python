@@ -1,3 +1,5 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pulakeshpradhan/python/blob/main/docs/data-science/Data-Science-Bootcamp-with-Python/06_Linear_Regression/02_Multiple_Linear_Regression.ipynb)
+
 # Multiple Linear Regression
 
 ## 01. Import the Essential Libraries

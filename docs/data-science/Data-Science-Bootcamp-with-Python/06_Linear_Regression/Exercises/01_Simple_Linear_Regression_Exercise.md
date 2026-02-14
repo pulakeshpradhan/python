@@ -1,3 +1,5 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pulakeshpradhan/python/blob/main/docs/data-science/Data-Science-Bootcamp-with-Python/06_Linear_Regression/Exercises/01_Simple_Linear_Regression_Exercise.ipynb)
+
 ## 01. Importing Required Libraries
 
 

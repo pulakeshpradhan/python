@@ -1,3 +1,5 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pulakeshpradhan/python/blob/main/docs/data-science/Data-Science-Bootcamp-with-Python/04_Introduction_to_Pandas/03_Different_Ways_of_Creating_Dataframe.ipynb)
+
 # Different Ways of Creating DataFrame
 Pandas is a powerful library for data manipulation and analysis in Python. It provides the DataFrame object, which is a two-dimensional table-like data structure with rows and columns. In this tutorial, we will cover different ways of creating a DataFrame in Pandas.
 

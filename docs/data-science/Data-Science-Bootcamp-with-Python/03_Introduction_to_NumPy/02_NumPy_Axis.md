@@ -1,3 +1,5 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pulakeshpradhan/python/blob/main/docs/data-science/Data-Science-Bootcamp-with-Python/03_Introduction_to_NumPy/02_NumPy_Axis.ipynb)
+
 # Numpy Axis
 In NumPy, the axis parameter is used to specify the dimension of an array along which a particular operation should be performed. It is an important parameter in many NumPy functions that deal with multi-dimensional arrays. Understanding how to use the axis parameter is crucial in performing complex operations on multi-dimensional arrays.
 

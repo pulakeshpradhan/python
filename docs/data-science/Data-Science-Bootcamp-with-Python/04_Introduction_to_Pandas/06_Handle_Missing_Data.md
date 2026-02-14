@@ -1,3 +1,5 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pulakeshpradhan/python/blob/main/docs/data-science/Data-Science-Bootcamp-with-Python/04_Introduction_to_Pandas/06_Handle_Missing_Data.ipynb)
+
 # Handle Missing Data
 In data analysis, missing data can be a common occurrence, and handling it properly is important to ensure accurate analysis. Pandas is a powerful library in Python that provides several methods for handling missing data. One of the methods to handle missing data is by using the replace() method.
 
