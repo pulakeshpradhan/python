@@ -700,7 +700,7 @@ plt.show()
 ```
 
 
-    
+
 ![png](01_Predicting_Life_Expectancy_Using_Linear_Regression_files/01_Predicting_Life_Expectancy_Using_Linear_Regression_22_0.png)
     
 

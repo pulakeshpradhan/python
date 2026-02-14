@@ -47,6 +47,8 @@ nav:
       - Numpy Attributes And Methods: data-science/Data-Science-Bootcamp-with-Python/03_Introduction_to_NumPy/03_NumPy_Attributes_and_Methods.md
       - Mathematical Operations Using Numpy: data-science/Data-Science-Bootcamp-with-Python/03_Introduction_to_NumPy/04_Mathematical_Operations_Using_NumPy.md
       - Advantages Of Using Numpy: data-science/Data-Science-Bootcamp-with-Python/03_Introduction_to_NumPy/05_Advantages_of_Using_NumPy.md
+      - Random Practice:
+        - Practice: data-science/Data-Science-Bootcamp-with-Python/03_Introduction_to_NumPy/Random_Practice/01_Practice.md
     - Introduction To Pandas:
       - Introduction To Pandas: data-science/Data-Science-Bootcamp-with-Python/04_Introduction_to_Pandas/01_Introduction_to_Pandas.md
       - Pandas Dataframe: data-science/Data-Science-Bootcamp-with-Python/04_Introduction_to_Pandas/02_Pandas_Dataframe.md
@@ -78,27 +80,398 @@ nav:
       - Untitled2: data-science/Data-Science-Bootcamp-with-Python/Random_Practices/Untitled2.md
   - Data Wrangling With Xarray:
     - Overview: data-science/Data-Wrangling-with-Xarray/index.md
+    - Fundamentals:
+      - Data Structures: data-science/Data-Wrangling-with-Xarray/00_Fundamentals/00_Data_Structures.md
   - End To End Machine Learning:
     - Overview: data-science/End-to-End-Machine-Learning/index.md
+    - Data Gathering:
+      - Working With Csv Files: data-science/End-to-End-Machine-Learning/00_Data_Gathering/00_Working_with_CSV_Files.md
+      - Working With Json And Sql: data-science/End-to-End-Machine-Learning/00_Data_Gathering/01_Working_with_JSON_and_SQL.md
+      - Fetching Data From An Api: data-science/End-to-End-Machine-Learning/00_Data_Gathering/02_Fetching_Data_from_an_API.md
+      - Fetching Data Using Web Scrapping: data-science/End-to-End-Machine-Learning/00_Data_Gathering/03_Fetching_Data_using_Web_Scrapping.md
+      - Understanding Your Data: data-science/End-to-End-Machine-Learning/00_Data_Gathering/04_Understanding_Your_Data.md
+    - Exploratory Data Analysis (Eda):
+      - Eda Using Univariate Analysis: data-science/End-to-End-Machine-Learning/01_Exploratory_Data_Analysis_(EDA)/00_EDA_using_Univariate_Analysis.md
+      - Eda Using Bivariate And Multivariate Analysis: data-science/End-to-End-Machine-Learning/01_Exploratory_Data_Analysis_(EDA)/01_EDA_using_Bivariate_and_Multivariate_Analysis.md
+      - Pandas Profiling: data-science/End-to-End-Machine-Learning/01_Exploratory_Data_Analysis_(EDA)/02_Pandas_Profiling.md
+    - Feature Engineering:
+      - Standardization: data-science/End-to-End-Machine-Learning/02_Feature_Engineering/00_Standardization.md
+      - Normalization: data-science/End-to-End-Machine-Learning/02_Feature_Engineering/01_
+          Normalization.md
+      - Encoding Categorical Data: data-science/End-to-End-Machine-Learning/02_Feature_Engineering/02_Encoding_Categorical_Data.md
+      - One Hot Encoding: data-science/End-to-End-Machine-Learning/02_Feature_Engineering/03_One_Hot_Encoding.md
+      - Column Transformer: data-science/End-to-End-Machine-Learning/02_Feature_Engineering/04_Column_Transformer.md
+      - Ml Without Pipeline 1: data-science/End-to-End-Machine-Learning/02_Feature_Engineering/05_ML_without_Pipeline_1.md
+      - Ml Without Pipeline 2: data-science/End-to-End-Machine-Learning/02_Feature_Engineering/06_ML_without_Pipeline_2.md
+      - Ml With Pipeline 1: data-science/End-to-End-Machine-Learning/02_Feature_Engineering/07_ML_with_Pipeline_1.md
+      - Ml With Pipeline 2: data-science/End-to-End-Machine-Learning/02_Feature_Engineering/08_ML_with_Pipeline_2.md
+      - Function Transformer: data-science/End-to-End-Machine-Learning/02_Feature_Engineering/09_Function_Transformer.md
+      - Power Transformer: data-science/End-to-End-Machine-Learning/02_Feature_Engineering/10_Power_Transformer.md
+      - Discretization: data-science/End-to-End-Machine-Learning/02_Feature_Engineering/11_Discretization.md
+      - Pca Step By Step: data-science/End-to-End-Machine-Learning/02_Feature_Engineering/20_PCA_Step_by_Step.md
+      - Pca Implementation On Mnist Data: data-science/End-to-End-Machine-Learning/02_Feature_Engineering/21_PCA_Implementation_on_MNIST_Data.md
+    - Machine Learning Algorithms:
+      - Linear Regression:
+        - Simple Linear Regression: data-science/End-to-End-Machine-Learning/03_Machine_Learning_Algorithms/00_Linear
+            Regression/00_Simple_Linear_Regression.md
+        - Mathematical Formulation Of Slr: data-science/End-to-End-Machine-Learning/03_Machine_Learning_Algorithms/00_Linear
+            Regression/01_Mathematical_Formulation_of_SLR.md
+        - Regression Metrics: data-science/End-to-End-Machine-Learning/03_Machine_Learning_Algorithms/00_Linear
+            Regression/02_Regression_Metrics.md
+        - Multiple Linear Regression: data-science/End-to-End-Machine-Learning/03_Machine_Learning_Algorithms/00_Linear
+            Regression/03_Multiple_Linear_Regression.md
+        - Mathematical Formulation Of Mlr: data-science/End-to-End-Machine-Learning/03_Machine_Learning_Algorithms/00_Linear
+            Regression/04_Mathematical_Formulation_of_MLR.md
+      - Gradient Descent:
+        - Gradient Descent Step By Step 1: data-science/End-to-End-Machine-Learning/03_Machine_Learning_Algorithms/01_Gradient_Descent/00_Gradient_Descent_Step_by_Step_1.md
+        - Gradient Descent Step By Step 2: data-science/End-to-End-Machine-Learning/03_Machine_Learning_Algorithms/01_Gradient_Descent/01_Gradient_Descent_Step_by_Step_2.md
+        - Batch Gradient Descent: data-science/End-to-End-Machine-Learning/03_Machine_Learning_Algorithms/01_Gradient_Descent/02_Batch_Gradient_Descent.md
+        - Stochastic Gradient Descent: data-science/End-to-End-Machine-Learning/03_Machine_Learning_Algorithms/01_Gradient_Descent/03_Stochastic_Gradient_Descent.md
+        - Mini Batch Gradient Descent: data-science/End-to-End-Machine-Learning/03_Machine_Learning_Algorithms/01_Gradient_Descent/04_Mini_Batch_Gradient_Descent.md
+      - Polynomial Regression:
+        - Polynomial Regression: data-science/End-to-End-Machine-Learning/03_Machine_Learning_Algorithms/02_Polynomial_Regression/00_Polynomial_Regression.md
+      - Logistic Regression:
+        - Perceptron Trick: data-science/End-to-End-Machine-Learning/03_Machine_Learning_Algorithms/03_Logistic_Regression/00_Perceptron_Trick.md
+        - Sigmoid Function: data-science/End-to-End-Machine-Learning/03_Machine_Learning_Algorithms/03_Logistic_Regression/01_Sigmoid_Function.md
+      - Support Vector Machine:
+        - Support Vector Machine: data-science/End-to-End-Machine-Learning/03_Machine_Learning_Algorithms/04_Support_Vector_Machine/00_Support_Vector_Machine.md
+        - Kernels In Svm: data-science/End-to-End-Machine-Learning/03_Machine_Learning_Algorithms/04_Support_Vector_Machine/01_Kernels_in_SVM.md
+      - Decision Tree:
+        - Overfitting And Underfitting In Decision Trees: data-science/End-to-End-Machine-Learning/03_Machine_Learning_Algorithms/05_Decision_Tree/00_Overfitting_and_Underfitting_in_Decision_Trees.md
+        - Regression Tree: data-science/End-to-End-Machine-Learning/03_Machine_Learning_Algorithms/05_Decision_Tree/01_Regression_Tree.md
+      - Adaboost:
+        - Adaboost Step By Step: data-science/End-to-End-Machine-Learning/03_Machine_Learning_Algorithms/AdaBoost/00_AdaBoost_Step_by_Step.md
 - Deep Learning:
   - End To End Deep Learning:
     - Overview: deep-learning/End-to-End-Deep-Learning/index.md
+    - Ann:
+      - Introduction To Perceptron: deep-learning/End-to-End-Deep-Learning/01_ANN/00_Introduction_to_Perceptron.md
+      - Perceptron Tricks: deep-learning/End-to-End-Deep-Learning/01_ANN/01_Perceptron_Tricks.md
+      - Problem With Perceptron: deep-learning/End-to-End-Deep-Learning/01_ANN/02_Problem_with_Perceptron.md
+      - Customer Churn Prediction Using Ann: deep-learning/End-to-End-Deep-Learning/01_ANN/03_Customer_Churn_Prediction_using_ANN.md
+      - Handwritten Digit Classification: deep-learning/End-to-End-Deep-Learning/01_ANN/04_Handwritten_Digit_Classification.md
+      - Graduate Admission Prediction Using Ann: deep-learning/End-to-End-Deep-Learning/01_ANN/05_Graduate_Admission_Prediction_using_ANN.md
+      - Backpropagation On Regression Data: deep-learning/End-to-End-Deep-Learning/01_ANN/06_Backpropagation_on_Regression_Data.md
+    - Cnn:
+      - Introduction To Cnn: deep-learning/End-to-End-Deep-Learning/02_CNN/00_Introduction_to_CNN.md
+      - Cnn Vs Visual Cortex: deep-learning/End-to-End-Deep-Learning/02_CNN/01_CNN_Vs_Visual_Cortex.md
+      - Convolution Operation: deep-learning/End-to-End-Deep-Learning/02_CNN/02_Convolution_Operation.md
+      - Padding And Strides In Cnn: deep-learning/End-to-End-Deep-Learning/02_CNN/03_Padding_and_Strides_in_CNN.md
+      - Pooling Layer In Cnn: deep-learning/End-to-End-Deep-Learning/02_CNN/04_Pooling_Layer_in_CNN.md
+      - Cnn Architecture And Lenet 5: deep-learning/End-to-End-Deep-Learning/02_CNN/05_CNN_Architecture_and_LeNet_5.md
+      - Cnn Vs Ann: deep-learning/End-to-End-Deep-Learning/02_CNN/06_CNN_Vs_ANN.md
+    - Activation Functions In Deep Learning: deep-learning/End-to-End-Deep-Learning/activation_functions_in_deep_learning.md
   - Deep Learning From Scratch:
     - Overview: deep-learning/deep-learning-from-scratch/index.md
+    - '[2] Srgan':
+      - Test: deep-learning/deep-learning-from-scratch/[2] SRGAN/test.md
+    - '[3] Transformers':
+      - Simplified Attention Mechanism Without Trainable Weights: deep-learning/deep-learning-from-scratch/[3]
+          Transformers/00_Simplified attention mechanism without trainable weights.md
+      - Self Attention With Trainable Weights: deep-learning/deep-learning-from-scratch/[3]
+          Transformers/01_Self attention with trainable weights.md
+      - Causal Attention: deep-learning/deep-learning-from-scratch/[3] Transformers/02_Causal
+          attention.md
+      - Multi Head Attention: deep-learning/deep-learning-from-scratch/[3] Transformers/03_Multi-head
+          attention.md
+    - '[4] Vision Transformer (Vit)':
+      - Coding Vit From Scratch: deep-learning/deep-learning-from-scratch/[4] Vision
+          Transformer (ViT)/Coding ViT from scratch.md
+    - '[5] Nanovlm':
+      - Build Nanovlm From Scratch: deep-learning/deep-learning-from-scratch/[5] NanoVLM/Build
+          NanoVLM from scratch.md
+    - '[6] Variational Autoencoders':
+      - Coding Vae From Scratch: deep-learning/deep-learning-from-scratch/[6] Variational
+          AutoEncoders/Coding VAE from scratch.md
+    - '[7] Diffusion Models':
+      - Ddpm Forward Diffusion: deep-learning/deep-learning-from-scratch/[7] Diffusion
+          Models/00_DDPM_Forward_Diffusion.md
+      - Ddpm Reverse Transition Kernel: deep-learning/deep-learning-from-scratch/[7]
+          Diffusion Models/01_DDPM_Reverse_Transition_Kernel.md
   - Pytorch For Deep Learning And Machine Learning:
     - Overview: deep-learning/pytorch-for-deep-learning-and-machine-learning/index.md
+    - Pytorch Fundamentals: deep-learning/pytorch-for-deep-learning-and-machine-learning/00_pytorch_fundamentals.md
+    - Pytorch Workflow: deep-learning/pytorch-for-deep-learning-and-machine-learning/01_pytorch_workflow.md
+    - Pytorch Classification: deep-learning/pytorch-for-deep-learning-and-machine-learning/02_pytorch_classification.md
+    - Pytorch Computer Vision: deep-learning/pytorch-for-deep-learning-and-machine-learning/03_pytorch_computer_vision.md
+    - Cnn:
+      - Introduction To Cnn: deep-learning/pytorch-for-deep-learning-and-machine-learning/CNN/00_introduction_to_cnn.md
+      - Cnn Vs Visual Cortex: deep-learning/pytorch-for-deep-learning-and-machine-learning/CNN/01_cnn_vs_visual_cortex.md
+      - Convolution Operation: deep-learning/pytorch-for-deep-learning-and-machine-learning/CNN/02_convolution_operation.md
+      - Padding And Strides In Cnn: deep-learning/pytorch-for-deep-learning-and-machine-learning/CNN/03_padding_and_strides_in_cnn.md
+      - Pooling Layer In Cnn: deep-learning/pytorch-for-deep-learning-and-machine-learning/CNN/04_pooling_layer_in_cnn.md
+      - Cnn Architecture And Lenet 5: deep-learning/pytorch-for-deep-learning-and-machine-learning/CNN/05_cnn_architecture_and_lenet_5.md
+      - Cnn Vs Ann: deep-learning/pytorch-for-deep-learning-and-machine-learning/CNN/06_cnn_vs_ann.md
+      - Cat Vs Dogs Image Classification: deep-learning/pytorch-for-deep-learning-and-machine-learning/CNN/08_cat-vs-dogs-image-classification.md
+    - Pytorch Campusx:
+      - Pytorch Autograd: deep-learning/pytorch-for-deep-learning-and-machine-learning/PyTorch_CampusX/03_pytorch_autograd.md
+      - Pytorch Training Pipeline: deep-learning/pytorch-for-deep-learning-and-machine-learning/PyTorch_CampusX/04_pytorch_training_pipeline.md
+      - Pytorch Nn Module: deep-learning/pytorch-for-deep-learning-and-machine-learning/PyTorch_CampusX/05_pytorch_nn_module.md
+      - Dataset And Dataloader: deep-learning/pytorch-for-deep-learning-and-machine-learning/PyTorch_CampusX/06_dataset_and_dataloader.md
+      - Buidling Ann Using Pytorch: deep-learning/pytorch-for-deep-learning-and-machine-learning/PyTorch_CampusX/07_buidling_ann_using_pytorch.md
+    - Projects:
+      - Simple Linear Regression Using Pytorch: deep-learning/pytorch-for-deep-learning-and-machine-learning/projects/00_simple_linear_regression_using_pytorch.md
+      - Intel Image Classification Using Tinyvgg: deep-learning/pytorch-for-deep-learning-and-machine-learning/projects/01_intel-image-classification-using-tinyvgg.md
 - Fundamentals:
   - Python Basics Learn To Code From Scratch:
     - Overview: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/index.md
+    - Introduction To Python:
+      - Introduction To Python: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/01
+          Introduction to Python/01_Introduction_to_Python.md
+      - Python Comments: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/01
+          Introduction to Python/02_Python_Comments.md
+    - Variables And Datatypes:
+      - Introduction To Variables: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/02
+          Variables and Datatypes/01_Introduction_to_Variables.md
+      - Introduction To Datatypes: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/02
+          Variables and Datatypes/02_Introduction_to_Datatypes.md
+    - Basic Input And Output:
+      - Print Function: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/03 Basic
+          Input and Output/01_Print_Function.md
+      - Taking Input: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/03 Basic
+          Input and Output/02_Taking_Input.md
+    - Operators In Python:
+      - Introduction To Operators: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/04
+          Operators in Python/01_Introduction_to_Operators.md
+      - Arithemetic Operators: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/04
+          Operators in Python/02_Arithemetic_Operators.md
+      - Assignment Operators: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/04
+          Operators in Python/03_Assignment_Operators.md
+      - Comparison Operators: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/04
+          Operators in Python/04_Comparison_Operators.md
+      - Logical Operators: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/04
+          Operators in Python/05_Logical_Operators.md
+      - Identity Operators: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/04
+          Operators in Python/06_Identity_Operators.md
+      - Membership Operators: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/04
+          Operators in Python/07_Membership_Operators.md
+      - Bitwise Operators: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/04
+          Operators in Python/08_Bitwise_Operators.md
+    - Conditional Statements And Loop:
+      - Conditional Statement: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/05
+          Conditional Statements and Loop/01_Conditional_Statement.md
+      - Loops: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/05 Conditional
+          Statements and Loop/02_Loops.md
+      - Break Continue Pass Return: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/05
+          Conditional Statements and Loop/03_Break_Continue_Pass_Return.md
+    - Function In Python:
+      - Function In Python: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/06
+          Function in Python/01_Function_in_Python.md
+      - Types Of Functions And Function Overloading: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/06
+          Function in Python/02_Types_of_Functions_and_Function_Overloading.md
+      - Scope Of Variables: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/06
+          Function in Python/03_Scope_of_Variables.md
+      - Concept Of Args And Kwargs: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/06
+          Function in Python/04_Concept_of_args_and_kwargs.md
+      - Python Default Parameters: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/06
+          Function in Python/05_Python_Default_Parameters.md
+    - List In Python:
+      - Two Dimensional List: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/07
+          List in Python/01_Two_Dimensional_List.md
+      - List Methods: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/07 List
+          in Python/02_List_Methods.md
+      - List Slicing: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/07 List
+          in Python/03_List_Slicing.md
+      - List Comprehension: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/07
+          List in Python/04_List_Comprehension.md
+    - String:
+      - Introduction To Strings: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/08
+          String/01_Introduction_to_Strings.md
+      - String Concatenation: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/08
+          String/02_String_Concatenation.md
+      - String Methods: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/08 String/03_String_Methods.md
+      - Iterating On Strings: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/08
+          String/04_Iterating_on_Strings.md
+    - Object Oriented Programming:
+      - Introduction To Oop: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/09
+          Object Oriented Programming/01_Introduction_to_OOP.md
+      - Constructor: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/09 Object
+          Oriented Programming/02_Constructor.md
+      - Types Of Attributes: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/09
+          Object Oriented Programming/03_Types_of_Attributes.md
+      - Inheritance: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/09 Object
+          Oriented Programming/04_Inheritance.md
+      - Access Modifiers: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/09
+          Object Oriented Programming/05_Access_Modifiers.md
+      - Access Modifiers With Inheritance: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/09
+          Object Oriented Programming/06_Access_Modifiers_with_Inheritance.md
+      - Types Of Methods: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/09
+          Object Oriented Programming/07_Types_of_Methods.md
+      - Polymorphism: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/09 Object
+          Oriented Programming/08_Polymorphism.md
+    - Exception Handling:
+      - Introduction To Exception Handling: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/10
+          Exception Handling/01_Introduction_to_Exception_Handling.md
+      - Try Except Statement: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/10
+          Exception Handling/02_try_except_Statement.md
+      - Try Except Else Statement: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/10
+          Exception Handling/03_try_except_else_Statement.md
+      - Finally Statement: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/10
+          Exception Handling/04_finally_Statement.md
+    - Class Code:
+      - Access Modifiers: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/Class
+          Code/Access_Modifiers.md
+      - Access Modifiers With Inheritence: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/Class
+          Code/Access_Modifiers_with_Inheritence.md
+      - Arithmetic Operators: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/Class
+          Code/Arithmetic_Operators.md
+      - Assignment Operators: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/Class
+          Code/Assignment_Operators.md
+      - Bitwise Operators: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/Class
+          Code/Bitwise_Operators.md
+      - Break Continue Pass: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/Class
+          Code/Break_Continue_Pass.md
+      - Comparison Operators: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/Class
+          Code/Comparison_Operators.md
+      - Concept Of Args And Kwargs: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/Class
+          Code/Concept of args and kwargs.md
+      - Conditional Statement: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/Class
+          Code/Conditional_Statement.md
+      - Constructor: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/Class Code/Constructor.md
+      - Exercise Solution: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/Class
+          Code/Exercise Solution.md
+      - Function In Python: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/Class
+          Code/Function_in_Python.md
+      - Identity Operators: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/Class
+          Code/Identity_Operators.md
+      - Inheritance: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/Class Code/Inheritance.md
+      - Introduction To Jupyter Interface: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/Class
+          Code/Introduction to Jupyter Interface.md
+      - Introduction To Markdown: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/Class
+          Code/Introduction to Markdown.md
+      - Introduction To Datatypes: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/Class
+          Code/Introduction_to_Datatypes.md
+      - Introduction To Library And Module: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/Class
+          Code/Introduction_to_Library_and_Module.md
+      - Introduction To Oop: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/Class
+          Code/Introduction_to_OOP.md
+      - Introduction To Strings: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/Class
+          Code/Introduction_to_Strings.md
+      - Introduction To Variables: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/Class
+          Code/Introduction_to_Variables.md
+      - Iterating On Strings: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/Class
+          Code/Iterating on Strings.md
+      - List Comprehension: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/Class
+          Code/List_Comprehension.md
+      - List Methods: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/Class
+          Code/List_Methods.md
+      - List Slicing: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/Class
+          Code/List_Slicing.md
+      - Logical Operators: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/Class
+          Code/Logical_Operators.md
+      - Loops: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/Class Code/Loops.md
+      - Membership Operators: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/Class
+          Code/Membership_Operators.md
+      - Polymorphism: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/Class
+          Code/Polymorphism.md
+      - Python Default Parameters: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/Class
+          Code/Python Default Parameters.md
+      - Python Comments: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/Class
+          Code/Python_Comments.md
+      - Python Input Function: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/Class
+          Code/Python_input_Function.md
+      - Python Print Function: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/Class
+          Code/Python_print_Function.md
+      - Scope Of Variables: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/Class
+          Code/Scope of Variables.md
+      - String Concatenation: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/Class
+          Code/String_Concatenation.md
+      - String Methods: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/Class
+          Code/String_Methods.md
+      - Two Dimensional List: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/Class
+          Code/Two Dimensional List.md
+      - Types Of Attributes: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/Class
+          Code/Types_of_Attributes.md
+      - Types Of Function: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/Class
+          Code/Types_of_Function.md
+      - Types Of Methods: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/Class
+          Code/Types_of_Methods.md
+      - Untitled: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/Class Code/Untitled.md
   - Python For Beginners To Pros:
     - Overview: fundamentals/Python-for-Beginners-to-Pros/index.md
+    - Exercises:
+      - Python Exercise (11 20): fundamentals/Python-for-Beginners-to-Pros/Exercises/Python
+          Exercise (11-20).md
+      - Python Exercise (21 30): fundamentals/Python-for-Beginners-to-Pros/Exercises/Python
+          Exercise (21-30).md
+      - Python Exercise (31 40): fundamentals/Python-for-Beginners-to-Pros/Exercises/Python
+          Exercise (31-40).md
+      - Python Exercise (41 50): fundamentals/Python-for-Beginners-to-Pros/Exercises/Python
+          Exercise (41-50).md
+      - Python Exercise (51 60): fundamentals/Python-for-Beginners-to-Pros/Exercises/Python
+          Exercise (51-60).md
+      - Python Exercise (61 70): fundamentals/Python-for-Beginners-to-Pros/Exercises/Python
+          Exercise (61-70).md
+      - Python Exercise (71 80): fundamentals/Python-for-Beginners-to-Pros/Exercises/Python
+          Exercise (71-80).md
+      - Python Exercise (81 90): fundamentals/Python-for-Beginners-to-Pros/Exercises/Python
+          Exercise (81-90).md
+      - Python Exercise (91 100): fundamentals/Python-for-Beginners-to-Pros/Exercises/Python
+          Exercise (91-100).md
+      - Python Exercise (1 10): fundamentals/Python-for-Beginners-to-Pros/Exercises/Python_Exercise_(1_10).md
+    - Notebooks:
+      - Python Strings: fundamentals/Python-for-Beginners-to-Pros/Notebooks/03_python_strings.md
+      - Python Strings Solutions: fundamentals/Python-for-Beginners-to-Pros/Notebooks/03_python_strings_solutions.md
+      - Time Complexity: fundamentals/Python-for-Beginners-to-Pros/Notebooks/04_time_complexity.md
+      - Functions In Python: fundamentals/Python-for-Beginners-to-Pros/Notebooks/07_functions_in_python.md
+      - Object Oriented Programming 1: fundamentals/Python-for-Beginners-to-Pros/Notebooks/08_object_oriented_programming_1.md
+      - Object Oriented Programming 2: fundamentals/Python-for-Beginners-to-Pros/Notebooks/09_object_oriented_programming_2.md
+      - Object Oriented Programming 3: fundamentals/Python-for-Beginners-to-Pros/Notebooks/10_object_oriented_programming_3.md
+      - File Handling In Python: fundamentals/Python-for-Beginners-to-Pros/Notebooks/11_file_handling_in_python.md
 - Geospatial:
   - Geospatial Data Science With Python:
     - Overview: geospatial/Geospatial_Data_Science_with_Python/index.md
+    - Working With Projections:
+      - Working With Gcs And Pcs: geospatial/Geospatial_Data_Science_with_Python/01_Working_with_Projections/01_Working_with_GCS_and_PCS.md
+    - Exploring Geospatial Packages:
+      - Geopandas: geospatial/Geospatial_Data_Science_with_Python/02_Exploring_Geospatial_Packages/01_GeoPandas.md
+      - Spatial Data Structures: geospatial/Geospatial_Data_Science_with_Python/02_Exploring_Geospatial_Packages/02_Spatial_Data_Structures.md
+      - Spatial Data Manipulation: geospatial/Geospatial_Data_Science_with_Python/02_Exploring_Geospatial_Packages/03_Spatial_Data_Manipulation.md
+      - Geocoding: geospatial/Geospatial_Data_Science_with_Python/02_Exploring_Geospatial_Packages/04_Geocoding.md
+      - Shapely: geospatial/Geospatial_Data_Science_with_Python/02_Exploring_Geospatial_Packages/05_Shapely.md
+      - Shapely Properties And Methods: geospatial/Geospatial_Data_Science_with_Python/02_Exploring_Geospatial_Packages/06_Shapely_Properties_and_Methods.md
+      - Rasterio: geospatial/Geospatial_Data_Science_with_Python/02_Exploring_Geospatial_Packages/07_Rasterio.md
+      - Ipyleaflet: geospatial/Geospatial_Data_Science_with_Python/02_Exploring_Geospatial_Packages/08_ipyLeaflet.md
+    - Exploratory Spatial Data Analysis:
+      - Exploratory Data Visualization: geospatial/Geospatial_Data_Science_with_Python/03_Exploratory_Spatial_Data_Analysis/01_Exploratory_Data_Visualization.md
+      - Creating Choropleth Map From Points: geospatial/Geospatial_Data_Science_with_Python/03_Exploratory_Spatial_Data_Analysis/02_Creating_Choropleth_Map_from_Points.md
   - Image Analysis In Remote Sensing With Python:
     - Overview: geospatial/Image-Analysis-in-Remote-Sensing-with-Python/index.md
+    - Images Arrays Matrices:
+      - Algebra Of Vectors And Matrices: geospatial/Image-Analysis-in-Remote-Sensing-with-Python/01_Images_Arrays_Matrices/03_Algebra_of_Vectors_and_Matrices.md
+      - Square Matrices: geospatial/Image-Analysis-in-Remote-Sensing-with-Python/01_Images_Arrays_Matrices/04_Square_Matrices.md
+    - Reading And Displaying Image Band: geospatial/Image-Analysis-in-Remote-Sensing-with-Python/01_Reading_and_Displaying_Image_Band.md
+    - Integration Of Gee With Numpy: geospatial/Image-Analysis-in-Remote-Sensing-with-Python/Integration_of_GEE_with_NumPy.md
+    - Machine Learning With Scikit Learn:
+      - Download Landsat 8 Data: geospatial/Image-Analysis-in-Remote-Sensing-with-Python/Machine
+          Learning with Scikit Learn/Download_Landsat_8_Data.md
+      - Satellite Image Classification Using Scikit Learn: geospatial/Image-Analysis-in-Remote-Sensing-with-Python/Machine
+          Learning with Scikit Learn/Satellite_Image_Classification_using_Scikit_Learn.md
+    - Untitled: geospatial/Image-Analysis-in-Remote-Sensing-with-Python/Untitled.md
   - Mastering Machine Learning And Gee For Earth Science:
     - Overview: geospatial/Mastering-Machine-Learning-and-GEE-for-Earth-Science/index.md
+    - Geemap:
+      - Intro To Geemap: geospatial/Mastering-Machine-Learning-and-GEE-for-Earth-Science/00_geemap/00_Intro_to_geemap.md
+      - Cloud Masking: geospatial/Mastering-Machine-Learning-and-GEE-for-Earth-Science/00_geemap/01_Cloud_Masking.md
+      - Band Arithmetic: geospatial/Mastering-Machine-Learning-and-GEE-for-Earth-Science/00_geemap/02_Band_Arithmetic.md
+      - Download Image And Image Tiles: geospatial/Mastering-Machine-Learning-and-GEE-for-Earth-Science/00_geemap/03_Download_Image_and_Image_Tiles.md
+    - Data Gathering:
+      - Working With Csv Files: geospatial/Mastering-Machine-Learning-and-GEE-for-Earth-Science/01_Data_Gathering/00_Working_with_CSV_Files.md
+      - Understanding The Data: geospatial/Mastering-Machine-Learning-and-GEE-for-Earth-Science/01_Data_Gathering/01_Understanding_the_Data.md
+    - Exploratory Data Analysis:
+      - Eda Using Univariate Analysis: geospatial/Mastering-Machine-Learning-and-GEE-for-Earth-Science/02_Exploratory_Data_Analysis/00_EDA_using_Univariate_Analysis.md
+      - Eda Using Bivariate And Multivariate Analysis: geospatial/Mastering-Machine-Learning-and-GEE-for-Earth-Science/02_Exploratory_Data_Analysis/01_EDA_using_Bivariate_and_Multivariate_Analysis.md
+    - Feature Engineering:
+      - Standardization: geospatial/Mastering-Machine-Learning-and-GEE-for-Earth-Science/03_Feature_Engineering/00_Standardization.md
+      - Normalization: geospatial/Mastering-Machine-Learning-and-GEE-for-Earth-Science/03_Feature_Engineering/01_Normalization.md
+      - Encoding Categorical Data: geospatial/Mastering-Machine-Learning-and-GEE-for-Earth-Science/03_Feature_Engineering/02_Encoding_Categorical_Data.md
+      - One Hot Encoding: geospatial/Mastering-Machine-Learning-and-GEE-for-Earth-Science/03_Feature_Engineering/03_One_Hot_Encoding.md
+      - Column Transformer: geospatial/Mastering-Machine-Learning-and-GEE-for-Earth-Science/03_Feature_Engineering/04_Column_Transformer.md
+    - Machine Learning Algorithms:
+      - Simple Linear Regression: geospatial/Mastering-Machine-Learning-and-GEE-for-Earth-Science/04_Machine_Learning_Algorithms/00_Simple_Linear_Regression.md
+      - Regression Metrics: geospatial/Mastering-Machine-Learning-and-GEE-for-Earth-Science/04_Machine_Learning_Algorithms/02_Regression_Metrics.md
+      - Multiple Linear Regression: geospatial/Mastering-Machine-Learning-and-GEE-for-Earth-Science/04_Machine_Learning_Algorithms/03_Multiple_Linear_Regression.md
+      - Perceptron Trick: geospatial/Mastering-Machine-Learning-and-GEE-for-Earth-Science/04_Machine_Learning_Algorithms/11_Perceptron_Trick.md
   - Climate Data Downscaling:
     - Overview: geospatial/climate-data-downscaling/index.md
     - Train: geospatial/climate-data-downscaling/train.md
@@ -109,7 +482,9 @@ nav:
     - Readme: geospatial/geonext-handbook/README.md
     - Book:
       - Bibliography: geospatial/geonext-handbook/book/bibliography.md
+      - Maize Leaf Disease Classification Using Vit: geospatial/geonext-handbook/book/maize_leaf_disease_classification_using_ViT.md
       - Markdown: geospatial/geonext-handbook/book/markdown.md
+      - Notebooks: geospatial/geonext-handbook/book/notebooks.md
 - Projects:
   - Crop Yield Forecasting Germany:
     - Overview: projects/Crop-Yield-Forecasting-Germany/index.md
@@ -118,7 +493,22 @@ nav:
     - Data Preparation For Pbms: projects/Crop-Yield-Forecasting-Germany/02_data_preparation_for_pbms.md
   - Flood Susceptibility Zonation Of Malda District:
     - Overview: projects/Flood-Susceptibility-Zonation-of-Malda-District/index.md
+    - Notebooks:
+      - Classify The Image: projects/Flood-Susceptibility-Zonation-of-Malda-District/Notebooks/10_Classify_the_Image.md
+      - Assessment Of Validation Metrics: projects/Flood-Susceptibility-Zonation-of-Malda-District/Notebooks/11_Assessment_of_Validation_Metrics.md
+      - Training And Testing Data Preparation: projects/Flood-Susceptibility-Zonation-of-Malda-District/Notebooks/4_Training_and_Testing_Data_Preparation.md
+      - Application Of Random Forest For Flood Susceptibility Zonation: projects/Flood-Susceptibility-Zonation-of-Malda-District/Notebooks/5_Application_of_Random_Forest_for_Flood_Susceptibility_Zonation.md
+      - Application Of Xgboost For Flood Susceptibility Zonation: projects/Flood-Susceptibility-Zonation-of-Malda-District/Notebooks/6_Application_of_Xgboost_for_Flood_Susceptibility_Zonation.md
+      - Application Of Logistic Regression For Flood Susceptibility Zonation: projects/Flood-Susceptibility-Zonation-of-Malda-District/Notebooks/7_Application_of_Logistic_Regression_for_Flood_Susceptibility_Zonation.md
+      - Application Of Svm For Flood Susceptibility Zonation: projects/Flood-Susceptibility-Zonation-of-Malda-District/Notebooks/8_Application_of_SVM_for_Flood_Susceptibility_Zonation.md
+      - Convert The Image Into Csv: projects/Flood-Susceptibility-Zonation-of-Malda-District/Notebooks/9_Convert_the_Image_into_CSV.md
   - Indi Res:
     - Overview: projects/INDI-Res/index.md
+    - Notebooks:
+      - Exploration:
+        - Experimenting With Sam3: projects/INDI-Res/notebooks/00_exploration/00_experimenting_with_SAM3.md
+        - Data Extraction From Stac: projects/INDI-Res/notebooks/00_exploration/01_data_extraction_from_STAC.md
+      - Preprocessing:
+        - Extract Indian Reservoirs: projects/INDI-Res/notebooks/01_preprocessing/00_extract_indian_reservoirs.md
   - Pyimgproc Image Processing Using Python:
     - Overview: projects/PyImgProc-Image-Processing-using-Python/index.md

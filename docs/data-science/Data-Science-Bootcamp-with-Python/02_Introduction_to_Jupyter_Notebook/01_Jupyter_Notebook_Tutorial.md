@@ -160,7 +160,7 @@ df.plot.bar(x="variety", y="petal.length")
 
     CPU times: total: 0 ns
     Wall time: 1.05 ms
-    
+
 
 ## 04. Adding YouTube Videos
 

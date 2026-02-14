@@ -404,7 +404,7 @@ plt.show()
 ```
 
 
-    
+
 ![png](01_Simple_Linear_Regression_Exercise_files/01_Simple_Linear_Regression_Exercise_14_0.png)
     
 
@@ -454,7 +454,7 @@ print("intercept(c):", intercept)
 ```
 
     intercept(c): [-2161673.66291456]
-    
+
 
 ## 07. Predicting the GDP of Year 2030, 2040 and 2050
 
@@ -492,7 +492,7 @@ plt.show()
 ```
 
 
-    
+
 ![png](01_Simple_Linear_Regression_Exercise_files/01_Simple_Linear_Regression_Exercise_25_0.png)
     
 

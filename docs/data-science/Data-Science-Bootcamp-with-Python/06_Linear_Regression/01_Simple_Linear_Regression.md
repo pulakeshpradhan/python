@@ -798,7 +798,7 @@ plt.show()
 ```
 
 
-    
+
 ![png](01_Simple_Linear_Regression_files/01_Simple_Linear_Regression_38_0.png)
     
 
@@ -814,7 +814,7 @@ plt.show()
 ```
 
 
-    
+
 ![png](01_Simple_Linear_Regression_files/01_Simple_Linear_Regression_40_0.png)
     
 
@@ -831,7 +831,7 @@ plt.show()
 ```
 
 
-    
+
 ![png](01_Simple_Linear_Regression_files/01_Simple_Linear_Regression_42_0.png)
     
 
@@ -971,7 +971,7 @@ print("Root Mean Squared Error (RMSE):", RMSE.round(4))
 ```
 
     Root Mean Squared Error (RMSE): 7.5822
-    
+
 
 #### **7.04 Plotting the Linear Regression Line**
 
@@ -987,7 +987,7 @@ plt.show()
 ```
 
 
-    
+
 ![png](01_Simple_Linear_Regression_files/01_Simple_Linear_Regression_68_0.png)
     
 

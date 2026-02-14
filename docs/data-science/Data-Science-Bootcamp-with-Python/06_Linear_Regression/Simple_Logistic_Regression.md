@@ -329,7 +329,7 @@ plt.show()
 ```
 
 
-    
+
 ![png](Simple_Logistic_Regression_files/Simple_Logistic_Regression_16_0.png)
     
 
@@ -644,7 +644,7 @@ plt.show()
 ```
 
 
-    
+
 ![png](Simple_Logistic_Regression_files/Simple_Logistic_Regression_25_0.png)
     
 
@@ -669,7 +669,7 @@ plt.show()
 ```
 
 
-    
+
 ![png](Simple_Logistic_Regression_files/Simple_Logistic_Regression_28_0.png)
     
 

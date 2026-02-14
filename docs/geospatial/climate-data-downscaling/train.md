@@ -213,7 +213,7 @@ plt.colorbar(shrink=0.8);
 ```
 
 
-    
+
 ![png](train_files/train_11_0.png)
     
 
@@ -226,7 +226,7 @@ plt.colorbar(shrink=0.8);
 ```
 
 
-    
+
 ![png](train_files/train_12_0.png)
     
 
@@ -239,7 +239,7 @@ plt.colorbar(shrink=0.8);
 ```
 
 
-    
+
 ![png](train_files/train_13_0.png)
     
 

@@ -488,7 +488,7 @@ print('Shape of the data for 2022:', de_yield_2022.shape)
 
     Shape of the data for 2023: (3970, 8)
     Shape of the data for 2022: (3970, 8)
-    
+
 
 ## **Merge All the Datasets**
 

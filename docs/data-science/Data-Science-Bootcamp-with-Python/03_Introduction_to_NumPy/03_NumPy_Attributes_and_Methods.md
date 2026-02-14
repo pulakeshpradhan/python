@@ -93,7 +93,7 @@ for item in myArr.flat:
     7
     8
     9
-    
+
 
 ### 03. 'ndim' Attribute
 This attribute returns the number of dimensions of the array.

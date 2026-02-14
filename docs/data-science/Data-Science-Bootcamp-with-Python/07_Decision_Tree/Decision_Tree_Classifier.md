@@ -40,7 +40,7 @@ print(os.getcwd())
 ```
 
     D:\Coding\Git Repository\Data-Science-Bootcamp-with-Python\Datasets
-    
+
 
 ## **Reading the Dataset using Pandas**
 
@@ -349,7 +349,7 @@ plt.show()
 ```
 
 
-    
+
 ![png](Decision_Tree_Classifier_files/Decision_Tree_Classifier_22_0.png)
     
 
@@ -369,7 +369,7 @@ plt.show()
 ```
 
 
-    
+
 ![png](Decision_Tree_Classifier_files/Decision_Tree_Classifier_23_0.png)
     
 
@@ -428,7 +428,7 @@ plt.show()
 ```
 
 
-    
+
 ![png](Decision_Tree_Classifier_files/Decision_Tree_Classifier_31_0.png)
     
 
@@ -457,7 +457,7 @@ plt.show()
 ```
 
 
-    
+
 ![png](Decision_Tree_Classifier_files/Decision_Tree_Classifier_33_0.png)
     
 

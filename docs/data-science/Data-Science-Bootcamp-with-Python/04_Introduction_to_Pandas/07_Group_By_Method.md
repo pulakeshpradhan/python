@@ -200,7 +200,7 @@ for city, city_df in groups:
     9   01-02-2017  paris           50         13  Cloudy
     10  01-03-2017  paris           54          8  Cloudy
     11  01-04-2017  paris           42         10  Cloudy
-    
+
 
 ## 03. Aggregating Data using groupby()
 Once the data is grouped, we can perform various aggregation functions on the data. Some of the commonly used aggregation functions are:
@@ -502,13 +502,13 @@ groups.plot()
 
 
 
-    
+
 ![png](07_Group_By_Method_files/07_Group_By_Method_12_2.png)
     
 
 
 
-    
+
 ![png](07_Group_By_Method_files/07_Group_By_Method_12_3.png)
     
 
