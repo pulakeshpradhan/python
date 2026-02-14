@@ -1,0 +1,124 @@
+site_name: Geo Coding Muscle with Python
+site_url: https://pulakeshpradhan.github.io/python/
+theme:
+  name: material
+  palette:
+  - media: '(prefers-color-scheme: light)'
+    scheme: default
+    primary: indigo
+    accent: indigo
+    toggle:
+      icon: material/brightness-7
+      name: Switch to dark mode
+  - media: '(prefers-color-scheme: dark)'
+    scheme: slate
+    primary: indigo
+    accent: indigo
+    toggle:
+      icon: material/brightness-4
+      name: Switch to light mode
+  features:
+  - navigation.tabs
+  - navigation.top
+  - search.suggest
+  - search.highlight
+  - content.code.copy
+markdown_extensions:
+- admonition
+- pymdownx.highlight:
+    anchor_linenums: true
+- pymdownx.inlinehilite
+- pymdownx.snippets
+- pymdownx.superfences
+- pymdownx.arithmatex:
+    generic: true
+- attr_list
+- md_in_html
+nav:
+- Home: index.md
+- Data Science:
+  - Data Science Bootcamp With Python:
+    - Overview: data-science/Data-Science-Bootcamp-with-Python/index.md
+    - Introduction To Jupyter Notebook:
+      - Jupyter Notebook Tutorial: data-science/Data-Science-Bootcamp-with-Python/02_Introduction_to_Jupyter_Notebook/01_Jupyter_Notebook_Tutorial.md
+    - Introduction To Numpy:
+      - Introduction To Numpy: data-science/Data-Science-Bootcamp-with-Python/03_Introduction_to_NumPy/01_Introduction_to_Numpy.md
+      - Numpy Axis: data-science/Data-Science-Bootcamp-with-Python/03_Introduction_to_NumPy/02_NumPy_Axis.md
+      - Numpy Attributes And Methods: data-science/Data-Science-Bootcamp-with-Python/03_Introduction_to_NumPy/03_NumPy_Attributes_and_Methods.md
+      - Mathematical Operations Using Numpy: data-science/Data-Science-Bootcamp-with-Python/03_Introduction_to_NumPy/04_Mathematical_Operations_Using_NumPy.md
+      - Advantages Of Using Numpy: data-science/Data-Science-Bootcamp-with-Python/03_Introduction_to_NumPy/05_Advantages_of_Using_NumPy.md
+    - Introduction To Pandas:
+      - Introduction To Pandas: data-science/Data-Science-Bootcamp-with-Python/04_Introduction_to_Pandas/01_Introduction_to_Pandas.md
+      - Pandas Dataframe: data-science/Data-Science-Bootcamp-with-Python/04_Introduction_to_Pandas/02_Pandas_Dataframe.md
+      - Different Ways Of Creating Dataframe: data-science/Data-Science-Bootcamp-with-Python/04_Introduction_to_Pandas/03_Different_Ways_of_Creating_Dataframe.md
+      - Read Write Excel Csv: data-science/Data-Science-Bootcamp-with-Python/04_Introduction_to_Pandas/04_Read_Write_Excel_CSV.md
+      - Handle Missing Data: data-science/Data-Science-Bootcamp-with-Python/04_Introduction_to_Pandas/05_Handle_Missing_Data.md
+      - Handle Missing Data: data-science/Data-Science-Bootcamp-with-Python/04_Introduction_to_Pandas/06_Handle_Missing_Data.md
+      - Group By Method: data-science/Data-Science-Bootcamp-with-Python/04_Introduction_to_Pandas/07_Group_By_Method.md
+    - Introduction To Matplotlib:
+      - Introduction To Matplotlib: data-science/Data-Science-Bootcamp-with-Python/05_Introduction_to_Matplotlib/01_Introduction_to_Matplotlib.md
+      - Format Strings In Plot Function: data-science/Data-Science-Bootcamp-with-Python/05_Introduction_to_Matplotlib/02_Format_Strings_in_plot_Function.md
+    - Linear Regression:
+      - Simple Linear Regression: data-science/Data-Science-Bootcamp-with-Python/06_Linear_Regression/01_Simple_Linear_Regression.md
+      - Multiple Linear Regression: data-science/Data-Science-Bootcamp-with-Python/06_Linear_Regression/02_Multiple_Linear_Regression.md
+      - Cost Function: data-science/Data-Science-Bootcamp-with-Python/06_Linear_Regression/03_Cost_Function.md
+      - Exercises:
+        - Simple Linear Regression Exercise: data-science/Data-Science-Bootcamp-with-Python/06_Linear_Regression/Exercises/01_Simple_Linear_Regression_Exercise.md
+      - Simple Logistic Regression: data-science/Data-Science-Bootcamp-with-Python/06_Linear_Regression/Simple_Logistic_Regression.md
+      - Untitled: data-science/Data-Science-Bootcamp-with-Python/06_Linear_Regression/Untitled.md
+    - Decision Tree:
+      - Decision Tree Classifier: data-science/Data-Science-Bootcamp-with-Python/07_Decision_Tree/Decision_Tree_Classifier.md
+    - Projects:
+      - Predicting Life Expectancy Using Linear Regression: data-science/Data-Science-Bootcamp-with-Python/Projects/01_Predicting_Life_Expectancy_Using_Linear_Regression.md
+      - Predicting Aqi Using Regression: data-science/Data-Science-Bootcamp-with-Python/Projects/02_Predicting_AQI_using_Regression.md
+    - Random Practices:
+      - Practice: data-science/Data-Science-Bootcamp-with-Python/Random_Practices/Practice.md
+      - Untitled: data-science/Data-Science-Bootcamp-with-Python/Random_Practices/Untitled.md
+      - Untitled1: data-science/Data-Science-Bootcamp-with-Python/Random_Practices/Untitled1.md
+      - Untitled2: data-science/Data-Science-Bootcamp-with-Python/Random_Practices/Untitled2.md
+  - Data Wrangling With Xarray:
+    - Overview: data-science/Data-Wrangling-with-Xarray/index.md
+  - End To End Machine Learning:
+    - Overview: data-science/End-to-End-Machine-Learning/index.md
+- Deep Learning:
+  - End To End Deep Learning:
+    - Overview: deep-learning/End-to-End-Deep-Learning/index.md
+  - Deep Learning From Scratch:
+    - Overview: deep-learning/deep-learning-from-scratch/index.md
+  - Pytorch For Deep Learning And Machine Learning:
+    - Overview: deep-learning/pytorch-for-deep-learning-and-machine-learning/index.md
+- Fundamentals:
+  - Python Basics Learn To Code From Scratch:
+    - Overview: fundamentals/Python-Basics-Learn-to-Code-from-Scratch/index.md
+  - Python For Beginners To Pros:
+    - Overview: fundamentals/Python-for-Beginners-to-Pros/index.md
+- Geospatial:
+  - Geospatial Data Science With Python:
+    - Overview: geospatial/Geospatial_Data_Science_with_Python/index.md
+  - Image Analysis In Remote Sensing With Python:
+    - Overview: geospatial/Image-Analysis-in-Remote-Sensing-with-Python/index.md
+  - Mastering Machine Learning And Gee For Earth Science:
+    - Overview: geospatial/Mastering-Machine-Learning-and-GEE-for-Earth-Science/index.md
+  - Climate Data Downscaling:
+    - Overview: geospatial/climate-data-downscaling/index.md
+    - Train: geospatial/climate-data-downscaling/train.md
+  - Geonext Handbook:
+    - Overview: geospatial/geonext-handbook/index.md
+    - Conduct: geospatial/geonext-handbook/CONDUCT.md
+    - Contributing: geospatial/geonext-handbook/CONTRIBUTING.md
+    - Readme: geospatial/geonext-handbook/README.md
+    - Book:
+      - Bibliography: geospatial/geonext-handbook/book/bibliography.md
+      - Markdown: geospatial/geonext-handbook/book/markdown.md
+- Projects:
+  - Crop Yield Forecasting Germany:
+    - Overview: projects/Crop-Yield-Forecasting-Germany/index.md
+    - Yield Data Preparation: projects/Crop-Yield-Forecasting-Germany/00_yield_data_preparation.md
+    - Data Preparation For Pbms: projects/Crop-Yield-Forecasting-Germany/01_data_preparation_for_pbms.md
+    - Data Preparation For Pbms: projects/Crop-Yield-Forecasting-Germany/02_data_preparation_for_pbms.md
+  - Flood Susceptibility Zonation Of Malda District:
+    - Overview: projects/Flood-Susceptibility-Zonation-of-Malda-District/index.md
+  - Indi Res:
+    - Overview: projects/INDI-Res/index.md
+  - Pyimgproc Image Processing Using Python:
+    - Overview: projects/PyImgProc-Image-Processing-using-Python/index.md
