@@ -30,7 +30,8 @@ def generate_nav(dir_path, base_path):
     return nav
 
 base_dir = r'f:\OpenGit\python'
-navigation = generate_nav(base_dir, base_dir)
+docs_dir = os.path.join(base_dir, 'docs')
+navigation = generate_nav(docs_dir, docs_dir)
 
 config = {
     'site_name': 'Geo Coding Muscle with Python',
